@@ -7,4 +7,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0175-combine-two-tables](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0175-combine-two-tables) |
 | [0620-not-boring-movies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0620-not-boring-movies) |
 | [1390-average-selling-price](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1390-average-selling-price) |
+## Array
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
