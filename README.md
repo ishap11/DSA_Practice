@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1135-customers-who-bought-all-products](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1135-customers-who-bought-all-products) |
 | [1390-average-selling-price](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1390-average-selling-price) |
 | [1877-find-followers-count](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1877-find-followers-count) |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Array
 |  |
 | ------- |
