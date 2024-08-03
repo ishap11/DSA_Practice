@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [2727-number-of-senior-citizens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2727-number-of-senior-citizens) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Queue
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Divide and Conquer
 |  |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 ## Merge Sort
 |  |
 | ------- |
