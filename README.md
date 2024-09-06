@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Number Theory
 |  |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2573-remove-nodes-from-linked-list) |
 ## Monotonic Stack
 |  |
