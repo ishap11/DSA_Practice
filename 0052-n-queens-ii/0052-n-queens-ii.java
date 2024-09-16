@@ -13,7 +13,7 @@ class Solution {
     public void solve( boolean[][] board , int row ,  boolean[] cols  , boolean[] ndiag , boolean[] rdiag , int[] count) {
         
         if (row == board.length) {
-            // Base case: If all rows are filled, add the current board configuration to the result
+            // Base case
             count[0]++;
             return;
 
