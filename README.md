@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1670-patients-with-a-condition](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1670-patients-with-a-condition) |
 | [1811-fix-names-in-a-table](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1811-fix-names-in-a-table) |
 | [1877-find-followers-count](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1877-find-followers-count) |
+| [2057-count-salary-categories](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2057-count-salary-categories) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Array
 |  |
