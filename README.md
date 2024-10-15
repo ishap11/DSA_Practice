@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0102-binary-tree-level-order-traversal) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
+| [0801-is-graph-bipartite](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0801-is-graph-bipartite) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
@@ -178,14 +179,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
+| [0801-is-graph-bipartite](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0801-is-graph-bipartite) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
 |  |
 | ------- |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
+| [0801-is-graph-bipartite](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0801-is-graph-bipartite) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2121-find-if-path-exists-in-graph) |
 ## Graph
 |  |
 | ------- |
+| [0801-is-graph-bipartite](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0801-is-graph-bipartite) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
