@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
 | [1002-maximum-width-ramp](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1002-maximum-width-ramp) |
+| [1036-rotting-oranges](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1073-number-of-enclaves) |
 | [1331-path-with-maximum-gold](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1331-path-with-maximum-gold) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0102-binary-tree-level-order-traversal) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0801-is-graph-bipartite) |
+| [1036-rotting-oranges](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1073-number-of-enclaves) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1073-number-of-enclaves) |
 | [1331-path-with-maximum-gold](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1331-path-with-maximum-gold) |
 ## Depth-First Search
