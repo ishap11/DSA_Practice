@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0102-binary-tree-level-order-traversal) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0102-binary-tree-level-order-traversal) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0801-is-graph-bipartite) |
@@ -233,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
