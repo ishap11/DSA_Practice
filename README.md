@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0102-binary-tree-level-order-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0144-binary-tree-preorder-traversal) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0102-binary-tree-level-order-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0144-binary-tree-preorder-traversal) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0144-binary-tree-preorder-traversal) |
 | [1002-maximum-width-ramp](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1002-maximum-width-ramp) |
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2573-remove-nodes-from-linked-list) |
@@ -214,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0144-binary-tree-preorder-traversal) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
