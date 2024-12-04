@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1117-as-far-from-land-as-possible) |
 | [1331-path-with-maximum-gold](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1331-path-with-maximum-gold) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Greedy
 |  |
 | ------- |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -168,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 ## Merge Sort
 |  |
@@ -309,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Quickselect
 |  |
 | ------- |
