@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
 | [1002-maximum-width-ramp](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1002-maximum-width-ramp) |
 | [1036-rotting-oranges](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1073-number-of-enclaves](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1117-as-far-from-land-as-possible) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
+| [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -319,10 +321,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
