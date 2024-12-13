@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2050-count-good-numbers) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2050-count-good-numbers) |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0078-subsets) |
+| [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
 ## Matrix
 |  |
 | ------- |
