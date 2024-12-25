@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
@@ -328,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
