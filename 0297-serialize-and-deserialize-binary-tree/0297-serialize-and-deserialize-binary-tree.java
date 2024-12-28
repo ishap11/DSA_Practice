@@ -47,7 +47,7 @@ public class Codec {
          if (data == null || data.isEmpty()) {
             return null;
         }
-         idx = 0;
+        idx = 0;
         String[] arr = data.split(",");
         return deserializeHelpr(arr);
     }
