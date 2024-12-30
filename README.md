@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0733-flood-fill) |
+| [0735-asteroid-collision](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0735-asteroid-collision) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0780-max-chunks-to-make-sorted) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0966-binary-subarrays-with-sum) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0735-asteroid-collision) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0145-binary-tree-postorder-traversal) |
+| [0735-asteroid-collision](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0735-asteroid-collision) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0780-max-chunks-to-make-sorted) |
 | [1002-maximum-width-ramp](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
