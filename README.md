@@ -273,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2032-largest-odd-number-in-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2032-largest-odd-number-in-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2727-number-of-senior-citizens) |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Design
 |  |
 | ------- |
