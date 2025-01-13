@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
+| [0198-house-robber](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
@@ -384,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0198-house-robber](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0198-house-robber) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [1063-best-sightseeing-pair](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1063-best-sightseeing-pair) |
 | [1117-as-far-from-land-as-possible](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1117-as-far-from-land-as-possible) |
