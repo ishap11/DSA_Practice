@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
 | [0051-n-queens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0051-n-queens) |
+| [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
 | [0078-subsets](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0128-longest-consecutive-sequence) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
 | [0735-asteroid-collision](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0735-asteroid-collision) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -331,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
