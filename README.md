@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0023-merge-k-sorted-lists) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2573-remove-nodes-from-linked-list) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Simulation
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2032-largest-odd-number-in-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2050-count-good-numbers) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Number Theory
@@ -297,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2573-remove-nodes-from-linked-list) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
