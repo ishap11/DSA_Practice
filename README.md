@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
+| [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
 ## Sorting
 |  |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0023-merge-k-sorted-lists) |
+| [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
 ## Bucket Sort
 |  |
@@ -405,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
+| [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -427,4 +431,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
