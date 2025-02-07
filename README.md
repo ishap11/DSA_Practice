@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
+| [0283-move-zeroes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
+| [0283-move-zeroes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0345-reverse-vowels-of-a-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1019-squares-of-a-sorted-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1019-squares-of-a-sorted-array) |
