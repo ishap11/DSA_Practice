@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1019-squares-of-a-sorted-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1019-squares-of-a-sorted-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1894-merge-strings-alternately](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1894-merge-strings-alternately) |
 ## Greedy
 |  |
 | ------- |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1894-merge-strings-alternately](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1894-merge-strings-alternately) |
 | [2032-largest-odd-number-in-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2032-largest-odd-number-in-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2727-number-of-senior-citizens) |
