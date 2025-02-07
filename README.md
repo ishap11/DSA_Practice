@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2270-find-all-lonely-numbers-in-the-array) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1019-squares-of-a-sorted-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1019-squares-of-a-sorted-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1894-merge-strings-alternately) |
 ## Greedy
 |  |
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1392-find-the-difference-of-two-arrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -245,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1019-squares-of-a-sorted-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Merge Sort
 |  |
