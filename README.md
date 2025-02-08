@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0023-merge-k-sorted-lists) |
+| [0206-reverse-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0206-reverse-linked-list) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2573-remove-nodes-from-linked-list) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2871-double-a-number-represented-as-a-linked-list) |
@@ -328,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
