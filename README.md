@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2470-removing-stars-from-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2470-removing-stars-from-a-string) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Two Pointers
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1894-merge-strings-alternately) |
 | [2032-largest-odd-number-in-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2032-largest-odd-number-in-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2470-removing-stars-from-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2470-removing-stars-from-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2727-number-of-senior-citizens) |
 ## Stack
 |  |
@@ -328,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2470-removing-stars-from-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2470-removing-stars-from-a-string) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2573-remove-nodes-from-linked-list) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Recursion
