@@ -10,14 +10,14 @@
  */
 class Solution {
     public ListNode oddEvenList(ListNode head) {
-        ListNode dummyOdd = new ListNode(-1);
-        ListNode dummyEven = new ListNode(-1);
+        ListNode evenList = new ListNode(-1);
+        ListNode oddList = new ListNode(-1);
 
-        ListNode even = dummyEven;
-        ListNode odd = dummyOdd;
+        ListNode even = evenList;
+        ListNode odd = oddList;
         ListNode curr = head;
 
-        int n = 0; //variable that maintain whether the curr node is -ve or +ve
+       int n = 0; 
         while(curr != null){
             n++;
             if(n % 2 == 0){
@@ -30,10 +30,9 @@ class Solution {
             }
             curr = curr.next;
         }
-        //important-> even.next = null; prevent cycle in a ll
         even.next = null;
-        odd.next = dummyEven.next;
+        odd.next = evenList.next;
 
-        return dummyOdd.next;
+        return oddList.next;
     }
 }
