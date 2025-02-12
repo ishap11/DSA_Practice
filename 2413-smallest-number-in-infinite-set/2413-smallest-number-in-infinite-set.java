@@ -24,26 +24,31 @@
 
 
 class SmallestInfiniteSet {
-    int i=1;
-    public static PriorityQueue<Integer> pq;
+    private int nextNum;  // Tracks the smallest number not removed yet
+    private PriorityQueue<Integer> pq;  // Min-heap for added-back numbers
+    private HashSet<Integer> set;  // To track numbers in pq (for O(1) lookup)
+
     public SmallestInfiniteSet() {
-        pq = new PriorityQueue<Integer>();
+        nextNum = 1;
+        pq = new PriorityQueue<>();
+        set = new HashSet<>();
     }
     
     public int popSmallest() {
-        if(pq.size()==0){
-            return i++;
+        if (!pq.isEmpty()) {
+            int smallest = pq.poll();
+            set.remove(smallest);  // Remove from HashSet
+            return smallest;
         }
-        return pq.poll();
+        return nextNum++;
     }
     
     public void addBack(int num) {
-        if(num<i && !pq.contains(num)){
+        if (num < nextNum && set.add(num)) {  // Only add if it's not already in the heap
             pq.add(num);
         }
     }
 }
-
 /**
  * Your SmallestInfiniteSet object will be instantiated and called as such:
  * SmallestInfiniteSet obj = new SmallestInfiniteSet();
