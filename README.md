@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
+| [0136-single-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0136-single-number) |
 | [0198-house-robber](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0371-sum-of-two-integers) |
