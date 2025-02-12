@@ -1,23 +1,18 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        // Arrays.sort(nums);
-        // int i = 0;
-        // while(i<nums.length-1){
-        //     if(nums[i]==nums[i+1]){
-        //         i = i+2;
-        //     }
-        //     else{
-        //         break;
-        //     }
-            
-        // }
-        // return nums[i];
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            int count = 0;
 
-        // METHOd-2
-        int a =0;
-        for(int i=0 ; i<nums.length ; i++){
-            a = a^nums[i];
+            for (int j = 0; j < n; j++) {
+                if (nums[i] == nums[j]) {
+                    count++;
+                }
+            }
+            if (count == 1) {
+                return nums[i];
+            }
         }
-        return a;
+        return -1;
     }
 }
