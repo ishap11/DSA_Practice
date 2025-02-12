@@ -15,9 +15,15 @@ public class Solution extends GuessGame {
         while(low <= high){
             int mid = (int)(low + (high - low) / 2);
             int guess=guess(mid);
-            if(guess==0) return mid;
-            else if(guess ==-1) high=mid-1;
-            else low=mid+1;
+            if(guess==0) {
+                return mid;
+            }
+            else if(guess ==-1) {
+                high=mid-1;
+            }
+            else {
+                low=mid+1;
+            }
         }
         return -1;
     }
