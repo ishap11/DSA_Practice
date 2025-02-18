@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1833-find-the-highest-altitude](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1833-find-the-highest-altitude) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2270-find-all-lonely-numbers-in-the-array) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1833-find-the-highest-altitude](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1833-find-the-highest-altitude) |
 ## Design
 |  |
 | ------- |
