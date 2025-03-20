@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0031-next-permutation) |
 | [0051-n-queens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0056-merge-intervals) |
 | [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
 | [0078-subsets](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0780-max-chunks-to-make-sorted) |
