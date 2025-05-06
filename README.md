@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0031-next-permutation) |
 | [0051-n-queens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0056-merge-intervals) |
 | [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
 | [0078-subsets](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0078-subsets) |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
@@ -449,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0053-maximum-subarray) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0213-house-robber-ii) |
