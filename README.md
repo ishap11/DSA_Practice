@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0056-merge-intervals) |
@@ -464,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0033-search-in-rotated-sorted-array) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0098-validate-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0099-recover-binary-search-tree) |
