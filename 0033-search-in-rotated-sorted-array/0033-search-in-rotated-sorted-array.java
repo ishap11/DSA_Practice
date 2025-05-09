@@ -10,17 +10,17 @@ class Solution {
                 return mid;
             }
 
-            // left half is sorted.
+            // left half is sorted......nums[low] <= target <= nums[mid]
             if(nums[low] <= nums[mid] ) {
-                if(target >= nums[low] && target <= nums[mid]) {
+                if(target >= nums[low] && target <= nums[mid]) { // target exist in left side
                     high = mid - 1;
                 } else {
                     low = mid + 1;
                 }
             } 
-            // right half is sorted. (nums[mid] <= nums[high])
+            // right half is sorted. (nums[mid] <= nums[high]).....nums[mid] <= target <= nums[high]
             else {
-                if(target > nums[mid] && target <= nums[high] ) {
+                if(target > nums[mid] && target <= nums[high] ) { // target exist in right side 
                     low = mid + 1;
                 } else {
                     high = mid - 1;
