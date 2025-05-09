@@ -1,44 +1,15 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-        // TC:O(Nlogn + N)
-        // Rsn: NlogN for sorting the array and O(N) for traversing through the array  and checking if adjacent elements are equal or not. But this will distort the array.
-        // SC - O(1)
-        // Arrays.sort(nums);
-        // for(int i = 0 ; i< nums.length ; i++){
-        //     if(nums[i] == nums[i+1]){
-        //         return nums[i];
-        //     }
-        // }
-        // return 0;
+        HashSet<Integer> set = new HashSet<>();
 
-        /*
-        // TC - O(n) SC - O(n)
-        int n =  nums.length;
-        int freq[] = new int[n + 1];
-        for (int i = 0; i < n; i++) {
-            if (freq[nums[i]] == 0) {
-                freq[nums[i]] += 1;
-            } else {
-                return nums[i];
+        for(int num : nums ){
+            if(!set.contains(num)){
+                set.add(num);
+            }
+            else if (set.contains(num)){
+                return num;
             }
         }
-        return 0;
-        */
-
-        int slow = nums[0];
-        int fast = nums[0];
-        do {
-            slow = nums[slow];
-            fast = nums[nums[fast]];
-        } while (slow != fast);
-
-        fast = nums[0];
-        while (slow != fast) {
-            slow = nums[slow];
-            fast = nums[fast];
-        }
-        return slow;
-
+        return -1;
     }
 }
-
