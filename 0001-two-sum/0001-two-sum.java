@@ -22,35 +22,53 @@ class Solution {
         // }
         // return new int[]{-1,-1};
 
-        Pair[] pair = new Pair[nums.length];
 
-        for(int i=0; i< nums.length ; i++) {
-            pair[i] = new Pair(nums[i] , i);
-        }
 
-        Arrays.sort(pair);
-        int[] res = new int[2];
-        int li = 0;
-        int ri = nums.length -1;
+        /* ========CODE======================= */
+        // Pair[] pair = new Pair[nums.length];
 
-        while(li <= ri) {
-            int left = pair[li].val;
-            int right = pair[ri].val;
+        // for(int i=0; i< nums.length ; i++) {
+        //     pair[i] = new Pair(nums[i] , i);
+        // }
 
-            if(left + right < target) {
-                li++;
-            } else if(left + right > target) {
-                ri--;
-            } else {
-                res[0] = pair[li].idx;
-                res[1] = pair[ri].idx;
-                break;
+        // Arrays.sort(pair);
+        // int[] res = new int[2];
+        // int li = 0;
+        // int ri = nums.length -1;
+
+        // while(li <= ri) {
+        //     int left = pair[li].val;
+        //     int right = pair[ri].val;
+
+        //     if(left + right < target) {
+        //         li++;
+        //     } else if(left + right > target) {
+        //         ri--;
+        //     } else {
+        //         res[0] = pair[li].idx;
+        //         res[1] = pair[ri].idx;
+        //         break;
+        //     }
+        // }
+        // return res;
+
+
+
+        /*================CODE===================== */
+
+        HashMap<Integer , Integer> map = new HashMap<>();
+
+        for(int i=0 ; i< nums.length ; i++) {
+            int comp =  target - nums[i];
+
+             if (map.containsKey(comp)) {
+                return new int[] { map.get(comp), i };
             }
+
+            map.put(nums[i], i);
         }
-        return res;
 
-
-       
+        return new int[] {};
 
     }
 }
