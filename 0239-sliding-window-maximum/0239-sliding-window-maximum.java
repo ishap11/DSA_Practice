@@ -1,6 +1,5 @@
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-
         int n = nums.length;
         if (n == 0 || k == 0) {
             return new int[0];
@@ -32,6 +31,5 @@ class Solution {
         }
 
         return ans;
-
     }
 }
