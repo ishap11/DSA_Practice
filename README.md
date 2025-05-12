@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0387-first-unique-character-in-a-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -368,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0232-implement-queue-using-stacks) |
 | [0735-asteroid-collision](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0780-max-chunks-to-make-sorted) |
@@ -528,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0155-min-stack](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [2413-smallest-number-in-infinite-set](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2413-smallest-number-in-infinite-set) |
 ## Binary Indexed Tree
