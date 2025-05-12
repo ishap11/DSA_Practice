@@ -341,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0145-binary-tree-postorder-traversal) |
