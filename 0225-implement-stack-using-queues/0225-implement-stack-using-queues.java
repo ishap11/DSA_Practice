@@ -1,5 +1,5 @@
 class MyStack {
-    Queue<Integer> mainQ;
+    Queue<Integer> mainQ ;
     Queue<Integer> helperQ;
     public MyStack() {
         mainQ = new ArrayDeque<>();
@@ -7,27 +7,44 @@ class MyStack {
     }
     
     public void push(int x) {
-        while(!mainQ.isEmpty()){
-            helperQ.add(mainQ.remove());
-        }
         mainQ.add(x);
-        while(!helperQ.isEmpty()){
-            mainQ.add(helperQ.remove());
-        } 
     }
     
     public int pop() {
-        int removed = mainQ.remove();
-        return removed;
+        int size = mainQ.size();
+
+        while(size > 1) {
+            helperQ.add(mainQ.remove());
+            size--;
+        }
+        int popped = mainQ.remove();
+
+        Queue<Integer> temp = mainQ;
+        mainQ = helperQ;
+        helperQ = temp;
+
+        return popped;
     }
     
     public int top() {
-        int peek = mainQ.peek();
-        return peek;
+       int size = mainQ.size();
+
+        while(size > 1) {
+            helperQ.add(mainQ.remove());
+            size--;
+        }
+        int topelem = mainQ.remove();  // remove last element
+        helperQ.add(topelem);          // add it back so it stays in stack
+
+        Queue<Integer> temp = mainQ;
+        mainQ = helperQ;
+        helperQ = temp;
+
+        return topelem;
     }
     
     public boolean empty() {
-        return mainQ.isEmpty();
+        return mainQ.isEmpty() ;
     }
 }
 
