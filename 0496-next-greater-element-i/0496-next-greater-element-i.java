@@ -1,51 +1,26 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        // if (nums2.length == 0 || nums1.length == 0)
-        // return new int[0];
-        
-        // Stack<Integer> st = new Stack<>();
-        // Map<Integer,Integer> map = new HashMap<>();
-
-        // for(int nums: nums2){
-        //     while(st.size() > 0 &&  st.peek() < nums){
-        //         map.put(st.pop(), nums);
-        //     }
-        //     st.push(nums);
-        // }
-        // for (int i = 0; i < nums1.length; i++) { 
-            // Check if each element in nums1 has a next greater element in map
-        //     nums1[i] = map.containsKey(nums1[i]) ? map.get(nums1[i]) : -1;
-         // Update element in nums1 with next greater element or -1
-        // }
-        // return nums1;
-
-
-        int[] ngr = nextGreaterElemRight(nums2);
-        HashMap<Integer, Integer> hm = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int[] res = new int[nums1.length] ;
 
         for (int i = 0; i < nums2.length; i++) {
-            hm.put(nums2[i], ngr[i]);
-        }
+        int nextGreater = -1;
 
-        int[] ans = new int[nums1.length];
-        for (int i = 0; i < nums1.length; i++) {
-            ans[i] = hm.get(nums1[i]);
-        }
-
-        return ans;
-
-    }
-    public static int[] nextGreaterElemRight(int[] nums) {
-        Stack<Integer> st = new Stack<>();
-        int[] ans = new int[nums.length];
-
-        for (int i = nums.length - 1; i >= 0; i--) {
-            while (!st.isEmpty() && st.peek() <= nums[i]) {
-                st.pop();
+        for (int j = i + 1; j < nums2.length; j++) {
+            if (nums2[j] > nums2[i]) {
+                nextGreater = nums2[j];
+                break; 
             }
-            ans[i] = st.isEmpty() ? -1 : st.peek();
-            st.push(nums[i]);
         }
-        return ans;
+
+        map.put(nums2[i], nextGreater); 
+    }
+ 
+
+        for(int i=0 ; i< nums1.length ; i++) {
+            res[i] = map.getOrDefault(nums1[i], -1);
+        }
+
+        return res;
     }
 }
