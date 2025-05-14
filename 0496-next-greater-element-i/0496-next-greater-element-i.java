@@ -25,29 +25,61 @@ class Solution {
 
     //     return res;
 
-        HashMap<Integer, Integer> map = new HashMap<>(); 
-        Stack<Integer> stack = new Stack<>();
 
-        for (int i = nums2.length - 1; i >= 0; i--) {
-            int current = nums2[i];
+    // ================CODE =======================================
+
+        // HashMap<Integer, Integer> map = new HashMap<>(); 
+        // Stack<Integer> stack = new Stack<>();
+
+        // for (int i = nums2.length - 1; i >= 0; i--) {
+        //     int current = nums2[i];
 
         
-            while (!stack.isEmpty() && stack.peek() <= current) {
-                stack.pop();
+        //     while (!stack.isEmpty() && stack.peek() <= current) {
+        //         stack.pop();
+        //     }
+
+        //     int nextGreater = stack.isEmpty() ? -1 : stack.peek();
+        //     map.put(current, nextGreater);
+
+        //     stack.push(current);
+        // }
+
+        // int[] result = new int[nums1.length];
+        // for (int i = 0; i < nums1.length; i++) {
+        //     result[i] = map.getOrDefault(nums1[i], -1);
+        // }
+
+        // return result;
+
+
+
+        // ==================CODE========================
+        int n= nums2.length;
+        Stack<Integer> st = new Stack<>();
+        int[] nextGreater = new int[10001];
+        for(int i=n-1;i>=0;i--)
+        {
+            while(!st.isEmpty() && st.peek()<=nums2[i])
+            {
+                st.pop();
             }
-
-            int nextGreater = stack.isEmpty() ? -1 : stack.peek();
-            map.put(current, nextGreater);
-
-            stack.push(current);
+            if(st.isEmpty())
+            {
+                nextGreater[nums2[i]]=-1;
+            }
+            else
+            {
+                nextGreater[nums2[i]]=st.peek();
+            }
+            st.push(nums2[i]);
         }
 
-        int[] result = new int[nums1.length];
-        for (int i = 0; i < nums1.length; i++) {
-            result[i] = map.getOrDefault(nums1[i], -1);
+        for(int i=0;i<nums1.length;i++)
+        {
+            nums1[i]= nextGreater[nums1[i]];
         }
-
-        return result;
+        return nums1;
     
     }
 }
