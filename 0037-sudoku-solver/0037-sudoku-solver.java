@@ -1,9 +1,9 @@
 class Solution {
     public void solveSudoku(char[][] board) {
-        solve(board, 0, 0);
+        solve(board , 0,0);
     }
 
-    public boolean solve(char[][] board, int i, int j) {
+   public boolean solve(char[][] board, int i, int j) {
         if (i == board.length) {
             return true;
         }
