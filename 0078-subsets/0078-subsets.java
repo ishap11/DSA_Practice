@@ -1,6 +1,6 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
+       List<List<Integer>> res = new ArrayList<>();
         List<Integer> subset = new ArrayList<>();
         createSubsets(nums, nums.length - 1, res, subset);
         return res;
