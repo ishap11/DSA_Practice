@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1117-as-far-from-land-as-possible) |
 | [1331-path-with-maximum-gold](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1331-path-with-maximum-gold) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -358,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0392-is-subsequence) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1894-merge-strings-alternately](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1894-merge-strings-alternately) |
@@ -420,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [1331-path-with-maximum-gold](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1331-path-with-maximum-gold) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -429,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0371-sum-of-two-integers) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
 ## Matrix
 |  |
 | ------- |
@@ -501,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [1063-best-sightseeing-pair](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1063-best-sightseeing-pair) |
 | [1117-as-far-from-land-as-possible](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1117-as-far-from-land-as-possible) |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Binary Search Tree
 |  |
@@ -562,4 +567,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0374-guess-number-higher-or-lower) |
+## Bitmask
+|  |
+| ------- |
+| [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
 <!---LeetCode Topics End-->
