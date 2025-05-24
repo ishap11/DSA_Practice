@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2727-number-of-senior-citizens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2727-number-of-senior-citizens) |
+| [3194-find-words-containing-character](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3194-find-words-containing-character) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Queue
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2470-removing-stars-from-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2470-removing-stars-from-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2727-number-of-senior-citizens) |
+| [3194-find-words-containing-character](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3194-find-words-containing-character) |
 ## Stack
 |  |
 | ------- |
