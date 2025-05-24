@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0198-house-robber) |
+| [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0238-product-of-array-except-self) |
@@ -356,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0387-first-unique-character-in-a-string) |
@@ -424,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0077-combinations](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
 | [1331-path-with-maximum-gold](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1331-path-with-maximum-gold) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
 ## Bit Manipulation
@@ -443,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
+| [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
@@ -583,5 +587,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
 | [0386-lexicographical-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
