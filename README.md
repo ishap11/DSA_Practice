@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0023-merge-k-sorted-lists) |
+| [0141-linked-list-cycle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0328-odd-even-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0031-next-permutation) |
+| [0141-linked-list-cycle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0141-linked-list-cycle) |
 | [0283-move-zeroes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0345-reverse-vowels-of-a-string) |
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0128-longest-consecutive-sequence) |
+| [0141-linked-list-cycle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0141-linked-list-cycle) |
 | [0208-implement-trie-prefix-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0387-first-unique-character-in-a-string) |
