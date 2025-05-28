@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0206-reverse-linked-list) |
@@ -404,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
