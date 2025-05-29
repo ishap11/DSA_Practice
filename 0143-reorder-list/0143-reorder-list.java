@@ -9,48 +9,52 @@
  * }
  */
 class Solution {
-    public void reorderList(ListNode head) {
-
-        if(head == null || head.next == null){
-            return ;
+    public ListNode middle(ListNode head) {
+        if(head == null || head.next == null) {
+            return head;
         }
-
         ListNode slow = head;
         ListNode fast = head;
-        while(fast.next != null && fast.next.next != null){
-            slow =slow.next;
-            fast = fast.next.next;
+
+        while(fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast =fast.next.next;
         }
-        ListNode mid = slow;
+        return slow;
+    } 
 
-        ListNode newNode = reverseList(slow.next);
-        slow.next = null;
-
+    public ListNode reverse(ListNode head) {
+        ListNode prev = null;
         ListNode curr = head;
-        
-        ListNode temp1 = newNode;
 
-        while(head != null && temp1 != null){
-            ListNode temp = curr.next;
-            curr.next = temp1;
-            ListNode temp2 = temp1.next;
-            temp1.next = temp;
-            curr = temp;
-            temp1 = temp2;
-        }
-
-    }
-
-    public ListNode reverseList(ListNode node){
-        ListNode prev =  null;
-        ListNode curr = node;
-
-        while(curr != null){
-            ListNode next  = curr.next;
+        while (curr != null) {
+            ListNode next = curr.next;
             curr.next = prev;
-            prev= curr;
+            prev = curr;
             curr = next;
         }
+
         return prev;
+    }
+
+    public void reorderList(ListNode head) {
+        
+        ListNode midNode = middle(head);
+        ListNode newHead = reverse(midNode.next);
+        midNode.next = null;
+        
+        ListNode curr = head;
+        
+        ListNode tempHead = newHead;
+
+        while(curr != null && tempHead != null){
+            ListNode temp1 = curr.next;
+            curr.next = tempHead;
+            ListNode temp2 = tempHead.next;
+            tempHead.next = temp1;
+            curr = temp1;
+            tempHead = temp2;
+        }
+
     }
 }
