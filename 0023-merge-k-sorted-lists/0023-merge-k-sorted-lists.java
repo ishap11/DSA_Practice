@@ -8,105 +8,51 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-
-// class Solution {
-//     public ListNode mergeKLists(ListNode[] lists) {
-//         PriorityQueue<ListNode> pq = new ListNode<>((a,b)->{
-//             return a.val - b.val;
-
-//         });
-
-//         for(ListNode 1:lists) if(1 != null) pq.add(1);
-//         ListNode dummy = new ListNode(-1);
-//         ListNode prev = dummy;
-//         while(pq.size != 0){
-//             ListNode node = pq.remove();
-//             prev.next = node;
-//             prev = prev.next;
-//             node = node.next;
-
-//             if(node != null ) pq.add(node);
-
-//             return dummy.next;
-//         }
-//     }
-// }
-
-// import java.util.Comparator;
-// import java.util.PriorityQueue;
-
-// class Solution {
-//     public ListNode mergeKLists(ListNode[] lists) {
-//         PriorityQueue<ListNode> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a.val));
-
-//         for (ListNode l : lists) {
-//             if (l != null) {
-//                 pq.add(l);
-//             }
-//         }
-
-//         ListNode dummy = new ListNode(-1);
-//         ListNode prev = dummy;
-
-//         while (!pq.isEmpty()) {
-//             ListNode node = pq.poll();
-//             prev.next = node;
-//             prev = prev.next;
-//             node = node.next;
-
-//             if (node != null) {
-//                 pq.add(node);
-//             }
-//         }
-
-//         return dummy.next;
-//     }
-// }
-
 class Solution {
-    public class Pair implements Comparable<Pair>{
-        int li;
-        int di;
-        int val;
+    public ListNode mergeTwoSortedLL(ListNode l1 , ListNode l2) {
+        if(l1 == null || l2 == null) return l1 != null ? l1 : l2;
 
-        Pair(int li , int di , int val){
-            this.li = li;
-            this.di = di;
-            this.val = val;
-        }
-        @Override
-        public int compareTo(Pair other) {
-            return this.val - other.val; // Min-heap based on value
-        }
-    }
+        ListNode dummy = new ListNode(-1);
+        ListNode prev = dummy;
 
-    public ListNode mergeKLists(ListNode[] lists) {
-        ListNode dummy = new ListNode(0);
-        ListNode tail = dummy;
+        ListNode c1 = l1 ;
+        ListNode c2 = l2;
 
-        PriorityQueue<Pair> pq = new PriorityQueue<>();
-
-        for (int i = 0; i < lists.length; i++) {
-            if (lists[i] != null) { 
-                pq.add(new Pair(i, 0, lists[i].val));
+        while(c1 != null && c2 != null) {
+            if(c1.val < c2.val) {
+                prev.next = c1;
+                c1 = c1.next;
+            } else {
+                prev.next = c2;
+                c2 = c2.next;
             }
+            prev = prev.next;
         }
 
-        while (!pq.isEmpty()) {
-            Pair p = pq.poll();
-
-            tail.next = new ListNode(p.val);
-            tail = tail.next;
-
-            // Move to the next element in the list from which the pair was removed
-            lists[p.li] = lists[p.li].next;
-
-            // If the list is not exhausted, add the next element to the priority queue
-            if (lists[p.li] != null) {
-                pq.add(new Pair(p.li, p.di + 1, lists[p.li].val));
-            }
-        }
+        prev.next = c1!= null ? c1 : c2;
 
         return dummy.next;
     }
+    public ListNode mergeKList(ListNode[] lists , int si , int ei) {
+        if(si > ei) return null;
+        if(si == ei) return lists[ei];
+        int mid = (si + ei)/2;
+
+        ListNode l1 = mergeKList(lists , si , mid);
+        ListNode l2 = mergeKList(lists , mid + 1 , ei);
+
+        return mergeTwoSortedLL(l1  , l2);
+    }
+
+
+
+
+
+    // main function
+    public ListNode mergeKLists(ListNode[] lists) {
+        if(lists.length == 0) return null;
+
+        return mergeKList(lists , 0 , lists.length - 1);
+    }
+    
 }
