@@ -1,20 +1,20 @@
 class Solution {
     public int maxArea(int[] height) {
-        // TC - O(n) Sc - O(1)
-        int res =0;
+        int sum = 0;
+        int i= 0; 
+        int j = height.length - 1;
 
-        int li =0;
-        int ri= height.length-1;
+        while(i< j) {
+            int width = j - i;
+            int hght = Math.min(height[j] , height[i]);
+            int area = width*hght;
+            if(sum < area ) {
+                 sum = area;
+            }
 
-        while(li < ri){
-            int left = height[li];
-            int right = height[ri];
-            int area = Math.min(left , right)*(ri - li);
-            res = Math.max(res , area);
-
-            if(left < right) li++;
-            else ri--;
+            if(height[j] > height[i]) i++;
+            else j--;
         }
-        return res;
+        return sum;
     }
 }
