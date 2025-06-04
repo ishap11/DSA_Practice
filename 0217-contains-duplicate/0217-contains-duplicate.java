@@ -13,10 +13,18 @@ class Solution {
         // }
         // return false;
 
-         HashSet<Integer> set= new HashSet<>();
-        for(int i: nums) {
-            if(set.contains(i)) return true;
-            set.add(i);
+        //  HashSet<Integer> set= new HashSet<>();
+        // for(int i: nums) {
+        //     if(set.contains(i)) return true;
+        //     set.add(i);
+        // }
+        // return false;
+
+         Set<Integer> s = new HashSet<>();
+        for (int num : nums) {
+            if (!s.add(num)) { // If num already exists, set.add returns false
+                return true;
+            }
         }
         return false;
     }
