@@ -1,49 +1,49 @@
 class Solution {
     public void nextPermutation(int[] nums) {
-          int n = nums.length;// size of the array.
-
-        // Step 1: Find the break point:
-        int ind = -1; // break point
-        for (int i = n - 2; i >= 0; i--) {
-            if (nums[i] < nums[i + 1]) {
-                // index i is the break point
-                ind = i;
-                break;
-            }
+        int i = nums.length - 2;
+        
+        // Step 1: Find first decreasing element from the end
+        while(i>= 0 && nums[i] >= nums[i+1]) {
+            i--;
         }
 
-        // If break point does not exist:
-        if (ind == -1) {
-            // reverse the whole array:
-            reverse(nums, 0, n - 1);
+        if(i == -1){
+            // reverse the largest to the smallest 
+            int s = nums.length -1;
+            int t = 0;
+
+            while(t<s) {
+                int temp = nums[t];
+                nums[t] = nums[s];
+                nums[s] = temp;
+                t++;
+                s--;
+            }
             return;
         }
 
-        // Step 2: Find the next greater element
-        //         and swap it with arr[ind]:
-
-        for (int i = n - 1; i > ind; i--) {
-            if (nums[i] > nums[ind]) {
-                swap(nums, i, ind);
-                break;
-            }
+        // Step 2: Find next larger element on the right
+        int k = nums.length -1;
+        while(nums[i] >= nums[k]) {
+            k--;
         }
+        // swap 
+        int temp = nums[i];
+        nums[i] = nums[k];
+        nums[k] = temp;
 
-        // Step 3: reverse the right half:
-        reverse(nums, ind + 1, n - 1);
 
-    }
-    void reverse(int[] nums, int start, int end) {
+        // Reverse the suffix(jisse smallest no bnjaaye)
+        int start = i + 1;
+        int end = nums.length - 1;
+
         while (start < end) {
-            swap(nums, start, end);
+            int tempVar = nums[start];
+            nums[start] = nums[end];
+            nums[end] = tempVar;
             start++;
             end--;
         }
-    }
 
-    void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
     }
 }
