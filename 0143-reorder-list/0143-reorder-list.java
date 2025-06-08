@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    public ListNode middle(ListNode head) {
+    public ListNode mid(ListNode head) {
         if(head == null || head.next == null) {
             return head;
         }
@@ -18,43 +18,43 @@ class Solution {
 
         while(fast.next != null && fast.next.next != null) {
             slow = slow.next;
-            fast =fast.next.next;
+            fast = fast.next.next;
         }
         return slow;
-    } 
+    }
 
     public ListNode reverse(ListNode head) {
-        ListNode prev = null;
+        if(head == null || head.next == null) {
+            return head;
+        }
         ListNode curr = head;
+        ListNode prev = null;
 
-        while (curr != null) {
+        while(curr != null) {
             ListNode next = curr.next;
             curr.next = prev;
             prev = curr;
             curr = next;
         }
-
         return prev;
     }
-
     public void reorderList(ListNode head) {
-        
-        ListNode midNode = middle(head);
-        ListNode newHead = reverse(midNode.next);
+        ListNode midNode = mid(head);
+        ListNode nHead = midNode.next;
+        ListNode reverseHead = reverse(nHead);
         midNode.next = null;
-        
+
         ListNode curr = head;
-        
-        ListNode tempHead = newHead;
+        ListNode newCurr = reverseHead;
 
-        while(curr != null && tempHead != null){
-            ListNode temp1 = curr.next;
-            curr.next = tempHead;
-            ListNode temp2 = tempHead.next;
-            tempHead.next = temp1;
+        while(curr != null && newCurr != null ){
+            ListNode temp1 = curr.next ;
+            curr.next = newCurr;
+            ListNode temp2 = newCurr.next;
+            newCurr.next = temp1;
+
             curr = temp1;
-            tempHead = temp2;
+            newCurr = temp2;
         }
-
     }
 }
