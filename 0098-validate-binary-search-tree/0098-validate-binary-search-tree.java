@@ -14,34 +14,34 @@
  * }
  */
 class Solution {
-    public class BSTPair {
-        boolean isBST ;
-        long min;
-        long max;
+    public class BSTPair{
+        boolean isBST;
+        int min;
+        int max;
     }
-    public BSTPair isBST(TreeNode root) {
-        if(root == null){
-            BSTPair basePair = new BSTPair();
-            basePair.isBST = true;
-            basePair.min = Long.MAX_VALUE;
-            basePair.max = Long.MIN_VALUE;
 
-            return basePair;
+    public BSTPair isBST(TreeNode root) {
+        if(root == null) {
+            BSTPair bp = new BSTPair();
+            bp.isBST = true;
+            bp.min = Long.MAX_VALUE;
+            bp.max = Long.MIN_VALUE;
+
+            return bp;
         }
 
-        BSTPair leftPair = isBST(root.left);
-        BSTPair rightPair = isBST(root.right);
+        BSTPair lp = isBST(root.left);
+        BSTPair rp = isBST(root.right);
 
-        BSTPair mainPair = new BSTPair();
-        mainPair.isBST = leftPair.isBST && rightPair.isBST && (root.val > leftPair.max) && (root.val < rightPair.min);
-        mainPair.min = Math.min(root.val , Math.min(leftPair.min , rightPair.min)); 
-        mainPair.max = Math.max(root.val , Math.max(leftPair.max , rightPair.max));
+        BSTPair mp = new BSTPair();
+        mp.isBST = lp.isBST && rp.isBST && (root.val >= lp.max && root.val <= rp.min);
 
-        return mainPair; 
+        mp.min = Math.min(root.val , Math.min(lp.min , rp.min));
+        mp.max = Math.max(root.val , Math.max(lp.max, rp.max));
+
+        return mp;
     }
-
-
     public boolean isValidBST(TreeNode root) {
-        return isBST(root).isBST; // Extract the isBST property from the BSTPair object
+        return isBST(root).isBST;
     }
 }
