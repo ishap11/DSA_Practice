@@ -16,8 +16,8 @@
 class Solution {
     public class BSTPair{
         boolean isBST;
-        int min;
-        int max;
+        long min;
+        long max;
     }
 
     public BSTPair isBST(TreeNode root) {
@@ -34,7 +34,7 @@ class Solution {
         BSTPair rp = isBST(root.right);
 
         BSTPair mp = new BSTPair();
-        mp.isBST = lp.isBST && rp.isBST && (root.val >= lp.max && root.val <= rp.min);
+        mp.isBST = lp.isBST && rp.isBST && (root.val > lp.max ) && (root.val < rp.min);
 
         mp.min = Math.min(root.val , Math.min(lp.min , rp.min));
         mp.max = Math.max(root.val , Math.max(lp.max, rp.max));
