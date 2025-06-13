@@ -15,22 +15,21 @@
  */
 class Solution {
     public TreeNode invertTree(TreeNode root) {
-         if (root == null) return null;
+        if(root == null) return null;
 
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
+        Stack<TreeNode> st = new Stack();
 
-        while (!stack.isEmpty()) {
-            TreeNode node = stack.pop();
+        st.push(root);
 
-            // Swap the left and right child
-            TreeNode temp = node.left;
-            node.left = node.right;
-            node.right = temp;
+        while(!st.isEmpty()) {
+            root = st.pop();
 
-            // Push non-null children to the stack
-            if (node.left != null) stack.push(node.left);
-            if (node.right != null) stack.push(node.right);
+            TreeNode temp = root.left;
+            root.left = root.right;
+            root.right = temp;
+
+            if(root.left != null) invertTree(root.left);
+            if(root.right != null) invertTree(root.right);
         }
 
         return root;
