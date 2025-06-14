@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-project-employees-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1161-project-employees-i) |
 | [1390-average-selling-price](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1390-average-selling-price) |
 | [1670-patients-with-a-condition](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1670-patients-with-a-condition) |
+| [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1811-fix-names-in-a-table](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1811-fix-names-in-a-table) |
 | [1877-find-followers-count](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1877-find-followers-count) |
 | [2057-count-salary-categories](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2057-count-salary-categories) |
