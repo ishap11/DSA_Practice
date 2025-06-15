@@ -4,13 +4,13 @@ class Solution {
 
         int profit = 0;
 
-        for(int i=1 ; i< prices.length ; i++) {
+        for(int i= 1 ; i< prices.length ; i++) {
             if(prices[i] < buy) {
                 buy = prices[i];
-            }
-            else {
-                int currProfit = prices[i] - buy;
-                profit = Math.max(profit , currProfit);
+            } else {
+                int mprofit = prices[i] - buy;
+
+                profit = Math.max(mprofit , profit);
             }
         }
         return profit;
