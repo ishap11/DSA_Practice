@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0175-combine-two-tables](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0175-combine-two-tables) |
 | [0197-rising-temperature](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0197-rising-temperature) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0570-managers-with-at-least-5-direct-reports) |
+| [0584-find-customer-referee](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0584-find-customer-referee) |
 | [0596-classes-more-than-5-students](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0596-classes-more-than-5-students) |
 | [0619-biggest-single-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0619-biggest-single-number) |
 | [0620-not-boring-movies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0620-not-boring-movies) |
