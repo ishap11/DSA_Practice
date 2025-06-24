@@ -2,8 +2,8 @@ class Solution {
     public int compress(char[] chars) {
         StringBuilder sb = new StringBuilder();
 
-        int i=1;
-        int count =1;
+        int i = 1;
+        int count = 1;
         sb.append(chars[0]);
 
         while(i< chars.length){
