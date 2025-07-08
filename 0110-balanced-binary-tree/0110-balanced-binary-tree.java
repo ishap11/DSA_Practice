@@ -14,23 +14,29 @@
  * }
  */
 class Solution {
-    static boolean isBal;
-    public int isBalancedHelper(TreeNode root) {
-        if(root == null){
-            return 0;
-        }
-        int left  = isBalancedHelper(root.left);
-        int right = isBalancedHelper(root.right);
+    public class Pair{
+        int ht;
+        boolean isBal;
+    }
 
-        int gap  = Math.abs(left - right);
-        if(gap > 1){
-            isBal = false;
+    private Pair isBalance(TreeNode root) {
+        if(root == null) {
+            Pair bp = new Pair();
+            bp.ht = 0;
+            bp.isBal = true;
+            return bp;
         }
-        return Math.max(left, right) + 1; // Return height of the current subtree
+
+        Pair lp = isBalance(root.left);
+        Pair rp = isBalance(root.right);
+
+        Pair mp = new Pair();
+        mp.isBal = Math.abs(lp.ht - rp.ht) <= 1 && lp.isBal && rp.isBal;
+        mp.ht = Math.max(lp.ht , rp.ht) + 1;
+
+        return mp;
     }
     public boolean isBalanced(TreeNode root) {
-        isBal = true; // Reset before starting
-        isBalancedHelper(root); // Perform recursive height checks
-        return isBal; // Return the final result
+        return isBalance(root).isBal;
     }
 }
