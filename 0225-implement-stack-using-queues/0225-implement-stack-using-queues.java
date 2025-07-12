@@ -1,50 +1,46 @@
 class MyStack {
-    Queue<Integer> mainQ ;
-    Queue<Integer> helperQ;
+    Queue<Integer> mq;
+    Queue<Integer> cq;
+
     public MyStack() {
-        mainQ = new ArrayDeque<>();
-        helperQ = new ArrayDeque<>();
+        mq = new ArrayDeque<>();
+        cq = new ArrayDeque<>();
     }
     
     public void push(int x) {
-        mainQ.add(x);
+        mq.add(x);
     }
     
     public int pop() {
-        int size = mainQ.size();
-
-        while(size > 1) {
-            helperQ.add(mainQ.remove());
-            size--;
+        while(mq.size() > 1) {
+            cq.add(mq.remove());
         }
-        int popped = mainQ.remove();
 
-        Queue<Integer> temp = mainQ;
-        mainQ = helperQ;
-        helperQ = temp;
+        int rem = mq.remove();
 
-        return popped;
+        while(cq.size() > 0) {
+            mq.add(cq.remove());
+        }
+        return rem;
     }
     
     public int top() {
-       int size = mainQ.size();
-
-        while(size > 1) {
-            helperQ.add(mainQ.remove());
-            size--;
+        while(mq.size() > 1) {
+            cq.add(mq.remove());
         }
-        int topelem = mainQ.remove();  // remove last element
-        helperQ.add(topelem);          // add it back so it stays in stack
 
-        Queue<Integer> temp = mainQ;
-        mainQ = helperQ;
-        helperQ = temp;
+        int peek = mq.remove();
+        cq.add(peek);
 
-        return topelem;
+        while(cq.size() > 0) {
+            mq.add(cq.remove());
+        }
+
+        return peek;
     }
     
     public boolean empty() {
-        return mainQ.isEmpty() ;
+        return mq.isEmpty();
     }
 }
 
