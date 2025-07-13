@@ -8,7 +8,7 @@ class MinStack {
     }
     
     public void push(int val) {
-        st.push(val);
+         st.push(val);
         if ( minSt.isEmpty() || val <= minSt.peek()) {
             minSt.push(val);
         } else {
@@ -19,11 +19,10 @@ class MinStack {
     public void pop() {
         if(!st.isEmpty()) {
            int popped = st.pop();
-            // If the popped value is the current minimum, pop it from minSt as well
             if (popped == minSt.peek()) {
                 minSt.pop();
             }
-        } 
+        }
     }
     
     public int top() {
