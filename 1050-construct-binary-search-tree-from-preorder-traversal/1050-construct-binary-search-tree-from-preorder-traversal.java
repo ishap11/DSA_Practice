@@ -14,9 +14,10 @@
  * }
  */
 class Solution {
-    private int idx = 0;
-     private TreeNode bstFromPreorder(int[] preorder, int lr, int rr) {
-        if (idx >= preorder.length || preorder[idx] < lr || preorder[idx] > rr) {
+    private int idx =0;
+
+    private TreeNode bstFromPreorder(int[] preorder , int lr , int rr){
+        if(idx >= preorder.length || preorder[idx] < lr || preorder[idx] > rr){
             return null;
         }
 
@@ -26,7 +27,6 @@ class Solution {
 
         return node;
     }
-
     public TreeNode bstFromPreorder(int[] preorder) {
         return bstFromPreorder(preorder, Integer.MIN_VALUE, Integer.MAX_VALUE);
     }
