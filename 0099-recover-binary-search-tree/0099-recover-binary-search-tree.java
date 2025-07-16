@@ -14,7 +14,6 @@
  * }
  */
 class Solution {
-
     public TreeNode getRightMostTree(TreeNode node , TreeNode curr){
         while(node.right != null && node.right != curr){
             node = node.right;
@@ -22,12 +21,16 @@ class Solution {
         return node;
     }
     public void recoverTree(TreeNode root) {
-        TreeNode prev = null , curr = root , a = null , b = null;
+        TreeNode curr = root;
+        TreeNode prev = null;
+        TreeNode a = null;
+        TreeNode b = null;
 
-        while(curr != null){
+        while(curr != null) {
             TreeNode leftNode = curr.left;
-            if(leftNode == null){
-                if(prev != null && prev.val > curr.val){
+
+            if(leftNode == null) {
+                if(prev != null && prev.val > curr.val) {
                     if(a == null){
                         a = prev;
                     }
@@ -36,14 +39,14 @@ class Solution {
                 prev = curr;
                 curr = curr.right;
             }else {
-                TreeNode rmn = getRightMostTree(leftNode, curr);
+                TreeNode rmn = getRightMostTree(leftNode , curr);
 
                 if(rmn.right == null) {
                     rmn.right = curr;
                     curr = curr.left;
                 }else {
                     rmn.right = null;
-                    if(prev.val > curr.val){
+                    if(prev.val > curr.val) {
                         if(a == null){
                             a = prev;
                         }
@@ -58,6 +61,6 @@ class Solution {
             int temp = a.val;
             a.val = b.val;
             b.val = temp;
-        }
+        } 
     }
 }
