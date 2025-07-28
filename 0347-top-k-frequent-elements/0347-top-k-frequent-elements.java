@@ -8,19 +8,18 @@ class Solution {
 
         for(int i=0 ; i< k ; i++) {
             int maxFreq = 0;
-            int maxKey = 0;
+            int maxkey = 0;
 
             for(int key : map.keySet()) {
                 if(map.get(key) > maxFreq) {
                     maxFreq = map.get(key);
-                    maxKey = key;
+                    maxkey = key;
                 }
             }
 
-            ans[i] = maxKey;
-            map.remove(maxKey);
+            ans[i] = maxkey;
+            map.remove(maxkey);
         }
-
         return ans;
     }
 }
