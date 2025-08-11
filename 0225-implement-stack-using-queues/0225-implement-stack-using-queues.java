@@ -1,4 +1,5 @@
 class MyStack {
+
     Queue<Integer> mq;
     Queue<Integer> cq;
 
@@ -21,6 +22,7 @@ class MyStack {
         while(cq.size() > 0) {
             mq.add(cq.remove());
         }
+
         return rem;
     }
     
@@ -29,14 +31,14 @@ class MyStack {
             cq.add(mq.remove());
         }
 
-        int peek = mq.remove();
-        cq.add(peek);
+        int rem = mq.remove();
+        cq.add(rem);
 
         while(cq.size() > 0) {
             mq.add(cq.remove());
         }
 
-        return peek;
+        return rem;
     }
     
     public boolean empty() {
