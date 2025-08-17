@@ -6,19 +6,19 @@ class Solution {
             map.put(num , map.getOrDefault(num , 0) + 1);
         }
 
-        for(int i=0 ; i< k ; i++) {
+        for(int i=0 ; i<k ; i++) {
             int maxFreq = 0;
-            int maxkey = 0;
+            int maxKey = 0;
 
             for(int key : map.keySet()) {
                 if(map.get(key) > maxFreq) {
                     maxFreq = map.get(key);
-                    maxkey = key;
+                    maxKey = key;
                 }
             }
 
-            ans[i] = maxkey;
-            map.remove(maxkey);
+            ans[i] = maxKey;
+            map.remove(maxKey);
         }
         return ans;
     }
