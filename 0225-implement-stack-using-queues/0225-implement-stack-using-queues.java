@@ -1,11 +1,10 @@
 class MyStack {
-
     Queue<Integer> mq;
     Queue<Integer> cq;
 
     public MyStack() {
         mq = new ArrayDeque<>();
-        cq = new ArrayDeque<>();
+        cq = new ArrayDeque<>();    
     }
     
     public void push(int x) {
@@ -16,7 +15,6 @@ class MyStack {
         while(mq.size() > 1) {
             cq.add(mq.remove());
         }
-
         int rem = mq.remove();
 
         while(cq.size() > 0) {
@@ -30,7 +28,6 @@ class MyStack {
         while(mq.size() > 1) {
             cq.add(mq.remove());
         }
-
         int rem = mq.remove();
         cq.add(rem);
 
