@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0328-odd-even-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0143-reorder-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0160-intersection-of-two-linked-lists) |
 | [0283-move-zeroes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0345-reverse-vowels-of-a-string) |
@@ -323,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0160-intersection-of-two-linked-lists) |
 | [0208-implement-trie-prefix-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0242-valid-anagram) |
