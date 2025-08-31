@@ -1,18 +1,21 @@
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
-        List<List<Integer>> result = new ArrayList<>();
-        generateCombinations(1, n, k, new ArrayList<Integer>(), result);
-        return result;
+        List<List<Integer>> ans = new ArrayList<>();
+        backtrack(1 , n , k , new ArrayList<>() , ans);
+
+        return ans;
     }
-    public void generateCombinations(int start, int n, int k, List<Integer> combination, List<List<Integer>> result) {
-        if (k == 0) {
-            result.add(new ArrayList<>(combination));
+
+    private void backtrack(int start , int n , int k , List<Integer> res , List<List<Integer>> ans) {
+        if(res.size() == k) {
+            ans.add(new ArrayList<>(res));
             return;
         }
-        for (int i = start; i <= n - k + 1; i++) {
-            combination.add(i);
-            generateCombinations(i + 1, n, k - 1, combination, result);
-            combination.remove(combination.size() - 1);
+
+        for(int i = start ; i<=n ; i++) {
+            res.add(i);
+            backtrack(i + 1 , n , k , res , ans);
+            res.remove(res.size() - 1);
         }
     }
 }
