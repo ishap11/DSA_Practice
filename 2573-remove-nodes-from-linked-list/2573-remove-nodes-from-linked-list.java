@@ -1,37 +1,48 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
     public ListNode removeNodes(ListNode head) {
-        head = reverseList(head);
-        ListNode current = head;
-        int maxVal = head.val;
-        ListNode previous = head;
-        head = head.next;
-        while (head != null) {
-            if (head.val < maxVal) {
-                previous.next = head.next;
-                head = previous.next;
-            } else {
-                maxVal = head.val;
-                previous = head;
-                head = head.next;
+        if(head == null || head.next == null) return head;
+
+        ListNode rhead = reverse(head);
+        ListNode curr = rhead;
+        ListNode prev = null;
+        int max = Integer.MIN_VALUE;
+
+        while(curr != null) {
+            if(curr.val >= max) {
+                max = curr.val;
+                prev =curr;
+            }  else {
+                prev.next = curr.next;
             }
+            curr = curr.next;
         }
-        head = reverseList(current);
-        return head;
+
+        return reverse(rhead);
     }
 
-    public ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        ListNode current = head;
+    private ListNode reverse(ListNode head) {
+        if(head == null || head.next == null) return head;
 
-        if (head == null || head.next == null) {
-            return head;
+        ListNode curr = head;
+        ListNode prev = null;
+
+        while(curr != null) {
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
-        while (current != null) {
-            ListNode next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
-        }
+
         return prev;
     }
 }
