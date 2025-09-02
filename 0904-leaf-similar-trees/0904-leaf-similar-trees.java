@@ -18,22 +18,20 @@ class Solution {
         List<Integer> leaf1 = new ArrayList<>();
         List<Integer> leaf2 = new ArrayList<>();
 
-        preorder(root1 , leaf1);
+        preorder(root1, leaf1);
         preorder(root2 , leaf2);
 
         return leaf1.equals(leaf2);
     }
-    
-    public void preorder(TreeNode node , List<Integer> leaf) {
-        if(node == null) {
-            return ;
-        }
-        if (node.left == null && node.right == null) {
-            leaf.add(node.val);
-        }
-        
-        preorder(node.left, leaf);
-        preorder(node.right, leaf);
-    }
 
+    public void preorder(TreeNode root , List<Integer> leaf){
+        if(root == null) return;
+
+        if(root.left == null && root.right == null){
+            leaf.add(root.val);
+        }
+
+        preorder(root.left , leaf);
+        preorder(root.right , leaf);
+    }
 }
