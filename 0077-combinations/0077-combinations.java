@@ -1,8 +1,8 @@
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> ans = new ArrayList<>();
-        backtrack(1 , n , k , new ArrayList<>() , ans);
 
+        backtrack(1 , n , k , new ArrayList<>() , ans);
         return ans;
     }
 
@@ -14,7 +14,7 @@ class Solution {
 
         for(int i = start ; i<=n ; i++) {
             res.add(i);
-            backtrack(i + 1 , n , k , res , ans);
+            backtrack(i+1 , n , k , res , ans);
             res.remove(res.size() - 1);
         }
     }
