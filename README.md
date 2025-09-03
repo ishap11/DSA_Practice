@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
 | [2413-smallest-number-in-infinite-set](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2413-smallest-number-in-infinite-set) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0904-leaf-similar-trees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0904-leaf-similar-trees) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0904-leaf-similar-trees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0904-leaf-similar-trees) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -647,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -675,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2413-smallest-number-in-infinite-set](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2413-smallest-number-in-infinite-set) |
 ## Binary Indexed Tree
 |  |
@@ -717,4 +722,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0572-subtree-of-another-tree) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
