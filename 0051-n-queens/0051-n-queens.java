@@ -1,53 +1,58 @@
 class Solution {
     public List<List<String>> solveNQueens(int n) {
-        List<List<String>> res = new ArrayList<>();
+        List<List<String>> ans = new ArrayList<>();
+        int[][] chess = new int[n][n];
 
-        boolean[][] board = new boolean[n][n];
-        boolean[] cols = new boolean[n];
-        boolean[] ndiag = new boolean[2*n-1];
-        boolean[] rdiag = new boolean[2*n-1];
-
-        solve(board , 0 , cols , ndiag , rdiag ,  res);
-        return res;
+        nQueens(n , chess , ans , 0);
+        return ans;
     }
 
+    public void nQueens(int n , int[][] chess , List<List<String>> ans , int row ){
+        List<Integer> res = new ArrayList<>();
 
-    public void solve( boolean[][] board , int row ,  boolean[] cols  , boolean[] ndiag , boolean[] rdiag , List<List<String>> res) {
-
-
-        if (row == board.length) {
-            // Base case: If all rows are filled, add the current board configuration to the result
-            List<String> solution = new ArrayList<>();
-            for (int i = 0; i < board.length; i++) {
+        if(row == n){
+            List<String> board = new ArrayList<>();
+            for(int i = 0; i < n; i++){
                 StringBuilder sb = new StringBuilder();
-                for (int j = 0; j < board[0].length; j++) {
-                    if (board[i][j]) {
-                        sb.append("Q");
-                    } else {
-                        sb.append(".");
-                    }
+                for(int j = 0; j < n; j++){
+                    if(chess[i][j] == 1) sb.append('Q');
+                    else sb.append('.');
                 }
-                solution.add(sb.toString());
+                board.add(sb.toString());
             }
-            res.add(solution);
+            ans.add(board);
             return;
         }
 
-        for(int col = 0;  col < board[0].length ; col++) {
-            if(cols[col] == false && ndiag[row + col ]  == false && rdiag[row - col + board.length -1] == false) {
-                board[row][col] = true;
-                cols[col] = true;
-                ndiag[row + col ] = true;
-                rdiag[row - col + board.length -1] = true;
-
-                solve(board, row + 1, cols, ndiag, rdiag, res);
-
-                board[row][col] = false;
-                cols[col] = false;
-                ndiag[row + col ] = false;
-                rdiag[row - col + board.length -1] = false;
-
-            }  
+        for(int col = 0; col < n;  col++){
+            if(isSafePlace(chess , row , col)) {
+                chess[row][col] = 1;
+                nQueens(n , chess , ans , row + 1);
+                chess[row][col] = 0;
+            }
         }
-    } 
+    }
+
+    private boolean isSafePlace(int[][]chess , int row , int col){
+        // check column
+        for (int i = 0; i < row; i++) {
+            if (chess[i][col] == 1) return false;
+        }
+        
+        // upper-left diagonal
+        for(int i = row - 1 , j = col - 1 ; i >= 0 && j >= 0 ; i-- , j--) {
+            if(chess[i][j] == 1){
+                return false;
+            }
+        }
+
+        // upper-right diagonal
+        for(int i = row - 1 , j = col + 1 ; i >= 0 && j < chess.length ; i-- , j++){
+            if(chess[i][j] == 1){
+                return false;
+            }
+        }
+
+        return true;
+    }
 }
