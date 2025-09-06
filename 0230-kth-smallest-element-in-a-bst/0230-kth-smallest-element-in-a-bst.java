@@ -14,33 +14,32 @@
  * }
  */
 class Solution {
-    private TreeNode getRightMostNode(TreeNode leftNode , TreeNode curr ) {
-        while(leftNode.right != null && leftNode.right != curr) {
+    private TreeNode getRightMostNode(TreeNode leftNode , TreeNode curr){
+        while(leftNode.right != curr && leftNode.right != null){
             leftNode = leftNode.right;
         }
         return leftNode;
     }
-
     public int kthSmallest(TreeNode root, int k) {
         TreeNode curr = root;
-        int count = 0;
-        
-        while(curr != null) {
+        int count  = 0;
+
+        while(curr != null){
             TreeNode leftNode = curr.left;
 
             if(leftNode == null) {
                 count++;
-                if(count == k) {
+                if(count == k){
                     return curr.val;
                 }
                 curr = curr.right;
-            }else {
+            }
+            else{
                 TreeNode rmn = getRightMostNode(leftNode , curr);
-
-                if(rmn.right == null) {
+                if(rmn.right == null){
                     rmn.right = curr;
                     curr = curr.left;
-                }else {
+                }else{
                     rmn.right = null;
                     count++;
                     if(count == k) {
