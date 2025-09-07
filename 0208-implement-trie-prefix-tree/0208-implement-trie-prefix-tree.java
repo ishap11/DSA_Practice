@@ -1,14 +1,16 @@
 class Trie {
 
-    private class Node {
-        Node[] childs ;
+    class Node{
+        Node[] childs;
         boolean isEnd;
 
-        Node() {
+         Node() {
             childs = new Node[26];
-        }
+         }
     }
-    final private Node root;
+
+    private static Node root;
+
 
     public Trie() {
         root = new Node();
@@ -17,15 +19,17 @@ class Trie {
     public void insert(String word) {
         Node curr = root;
 
-        for(int i=0 ; i< word.length() ; i++) {
+        for(int i = 0 ; i< word.length() ; i++){
             char ch = word.charAt(i);
 
-            if(curr.childs[ch - 'a'] == null) {
+            if(curr.childs[ch - 'a'] == null){
                 curr.childs[ch - 'a'] = new Node();
             }
+
+            
             curr = curr.childs[ch - 'a'];
         }
-        curr.isEnd = true;
+         curr.isEnd = true;
     }
     
     public boolean search(String word) {
