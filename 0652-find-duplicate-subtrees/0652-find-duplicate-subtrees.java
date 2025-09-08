@@ -16,22 +16,23 @@
 class Solution {
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         List<TreeNode> ans = new ArrayList<>();
-        HashMap<String , Integer> map = new HashMap<>();
-        getSubtree(root , map  , ans);
+        HashMap<String ,  Integer> map = new HashMap<>();
+
+        getSubTree(root , map , ans);
         return ans;
     }
 
-    private String getSubtree(TreeNode root , HashMap<String , Integer> map , List<TreeNode> ans ) {
+    private String getSubTree(TreeNode root , HashMap<String ,  Integer> map , List<TreeNode> ans){
         if(root == null) return "#";
 
-        String s = root.val + "," + getSubtree(root.left , map , ans) + ","  + getSubtree(root.right , map  , ans);
+        String s = root.val + "," + getSubTree(root.left , map , ans) + "," +  getSubTree(root.right , map , ans);
 
-        map.put(s, map.getOrDefault(s, 0) + 1);
+        map.put(s , map.getOrDefault(s , 0) + 1);
 
-        if (map.get(s) == 2) {  // add only when we see the second occurrence
+        if(map.get(s) == 2) {
             ans.add(root);
         }
 
-        return s ;
+        return s;
     }
 }
