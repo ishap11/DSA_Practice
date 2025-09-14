@@ -1,54 +1,53 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
+        
+        int fIdx = searchFIdx(nums , target);
+        int lIdx = searchLIdx(nums , target);
 
-       int firstIdx =  firstIndex(nums , target) ;
-       int lastIdx = lastIndex(nums , target);
-
-        if (firstIdx == -1 || lastIdx == -1) {
-            return new int[]{-1, -1};
+        if(fIdx == -1 && lIdx == -1){
+            return new int[]{-1 , -1};
         }
-        
-       return new int[]{firstIdx  , lastIdx};
-        
+
+        return new int[]{fIdx , lIdx};
     }
 
-    public int firstIndex(int[] nums , int target) {
-        int low = 0 ;
-        int high =  nums.length -1;
-        int result = -1;
+    public int searchFIdx(int[] nums , int target){
+        int lo = 0;
+        int hi = nums.length -1;
+        int res = -1;
 
-        while(low <= high) {
-            int mid = (low + high)/2;
+        while(lo <= hi){
+            int mid = (lo+hi)/2;
 
-            if(nums[mid] < target) {
-                low = mid + 1;
-            } else if(nums[mid] > target){
-                high = mid -1;
-            } else {
-                result = mid;
-                high = mid -1;
+            if(nums[mid] < target){
+                lo = mid + 1;
+            }else if(nums[mid] > target){
+                hi = mid - 1;
+            }else {
+                res = mid;
+                hi = mid - 1;
             }
         }
-        return result;
+        return res;
     }
 
-    public int  lastIndex(int[] nums , int target) {
-        int low = 0 ;
-        int high =  nums.length -1;
-        int result = -1;
+    public int searchLIdx(int[] nums , int target){
+        int lo = 0;
+        int hi = nums.length -1;
+        int res = -1;
 
-        while(low <= high) {
-            int mid = (low + high)/2;
+        while(lo <= hi){
+            int mid = (lo+hi)/2;
 
-            if(nums[mid] < target) {
-                low = mid + 1;
-            } else if(nums[mid] > target){
-                high = mid -1;
-            } else {
-                result = mid;
-                low = mid + 1;
+            if(nums[mid] < target){
+                lo = mid + 1;
+            }else if(nums[mid] > target){
+                hi = mid - 1;
+            }else {
+                res = mid;
+                lo = mid + 1;
             }
         }
-        return result;
+        return res;
     }
 }
