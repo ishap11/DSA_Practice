@@ -7,16 +7,19 @@ class Solution {
         return ans;
     }
 
-    public void nQueens(int n , int[][] chess , List<List<String>> ans , int row ){
-        List<Integer> res = new ArrayList<>();
+    private void nQueens(int n , int[][] chess , List<List<String>> ans , int row){
+        List<String> res = new ArrayList<>();
 
         if(row == n){
             List<String> board = new ArrayList<>();
-            for(int i = 0; i < n; i++){
+            for(int i=0 ; i< n ;i++){
                 StringBuilder sb = new StringBuilder();
-                for(int j = 0; j < n; j++){
-                    if(chess[i][j] == 1) sb.append('Q');
-                    else sb.append('.');
+                for(int j= 0;  j< n ; j++){
+                    if(chess[i][j] == 1){
+                        sb.append('Q');
+                    }else{
+                        sb.append('.');
+                    }
                 }
                 board.add(sb.toString());
             }
@@ -24,8 +27,9 @@ class Solution {
             return;
         }
 
-        for(int col = 0; col < n;  col++){
-            if(isSafePlace(chess , row , col)) {
+
+        for(int col = 0 ; col < n; col++){
+            if(isSafePlace(chess , row, col)) {
                 chess[row][col] = 1;
                 nQueens(n , chess , ans , row + 1);
                 chess[row][col] = 0;
@@ -33,26 +37,22 @@ class Solution {
         }
     }
 
-    private boolean isSafePlace(int[][]chess , int row , int col){
-        // check column
-        for (int i = 0; i < row; i++) {
-            if (chess[i][col] == 1) return false;
+    private boolean isSafePlace(int[][] chess , int row , int col){
+        for(int i=0 ; i< row ; i++){
+            if(chess[i][col] == 1) return false;
         }
-        
-        // upper-left diagonal
+
         for(int i = row - 1 , j = col - 1 ; i >= 0 && j >= 0 ; i-- , j--) {
             if(chess[i][j] == 1){
                 return false;
             }
         }
 
-        // upper-right diagonal
         for(int i = row - 1 , j = col + 1 ; i >= 0 && j < chess.length ; i-- , j++){
             if(chess[i][j] == 1){
                 return false;
             }
         }
-
         return true;
     }
 }
