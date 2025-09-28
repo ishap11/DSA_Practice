@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0287-find-the-duplicate-number) |
+| [0322-coin-change](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0322-coin-change) |
 | [0404-sum-of-left-leaves](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0404-sum-of-left-leaves) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
@@ -644,6 +646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0392-is-subsequence) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
