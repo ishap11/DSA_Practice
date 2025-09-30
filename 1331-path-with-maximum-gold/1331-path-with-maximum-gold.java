@@ -1,42 +1,43 @@
 class Solution {
-    int max = 0;
-    
+    int max =  0;
+
     public int getMaximumGold(int[][] grid) {
-        boolean[][] visited = new boolean[grid.length][grid[0].length];
-        
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
-                if (grid[i][j] != 0) {
-                    List<Integer> bag = new ArrayList<>();
-                    travelAndCollect(grid, i, j, visited, bag);
+        int n = grid.length;
+        int m = grid[0].length;
+        boolean[][] visited = new boolean[n][m];
+
+        for(int i = 0 ; i< n  ; i++){
+            for(int j = 0 ; j< m ; j++){
+                if(grid[i][j] != 0){
+                    List<Integer> bagOfGold = new ArrayList<>();
+                    travelAndCollectGold(grid , i , j , visited , bagOfGold);
                 }
             }
         }
-        
         return max;
     }
 
-    private void travelAndCollect(int[][] grid, int i, int j, boolean[][] visited, List<Integer> bag) {
-        if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] == 0 || visited[i][j]) {
+    public void travelAndCollectGold(int[][] grid , int i , int j , boolean[][] visited ,  List<Integer> bagOfGold){
+        if(i<0 || j<0 || i>= grid.length || j>= grid[0].length || grid[i][j] == 0 || visited[i][j]){
             return;
         }
-        
+
         visited[i][j] = true;
-        bag.add(grid[i][j]);
+        bagOfGold.add(grid[i][j]);
+        int currSum  = 0;
 
-        // Calculate the sum of the current path's gold
-        int currentSum = 0;
-        for (int val : bag) {
-            currentSum += val;
+        for(int val : bagOfGold){
+            currSum += val;
         }
-        max = Math.max(max, currentSum);
 
-        travelAndCollect(grid, i, j - 1, visited, bag); // left
-        travelAndCollect(grid, i, j + 1, visited, bag); // right
-        travelAndCollect(grid, i - 1, j, visited, bag); // up
-        travelAndCollect(grid, i + 1, j, visited, bag); // down
+        max = Math.max(max , currSum);
 
-        bag.remove(bag.size() - 1);
+        travelAndCollectGold(grid, i, j - 1, visited, bagOfGold); // left
+        travelAndCollectGold(grid, i, j + 1, visited, bagOfGold); // right
+        travelAndCollectGold(grid, i - 1, j, visited, bagOfGold); // up
+        travelAndCollectGold(grid, i + 1, j, visited, bagOfGold); // down
+
+        bagOfGold.remove(bagOfGold.size() - 1);
         visited[i][j] = false;
     }
 }
