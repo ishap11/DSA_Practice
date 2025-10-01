@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1135-customers-who-bought-all-products](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1135-customers-who-bought-all-products) |
 | [1161-project-employees-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1161-project-employees-i) |
 | [1258-article-views-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1258-article-views-i) |
+| [1317-monthly-transactions-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1317-monthly-transactions-i) |
 | [1390-average-selling-price](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1415-students-and-examinations) |
 | [1670-patients-with-a-condition](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1670-patients-with-a-condition) |
