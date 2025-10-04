@@ -14,30 +14,30 @@
  * }
  */
 class Solution {
-    public class DiaPair {
-        int ht ;
+    public class Pair{
+        int ht ; 
         int dia;
     }
 
-    private DiaPair diameterOfBinaryTree_(TreeNode root) {
-        if(root == null) {
-            DiaPair bp = new DiaPair();
+    public Pair diameterOfBinaryTree_(TreeNode root){
+        if(root == null){
+            Pair bp = new Pair();
             bp.ht = -1;
             bp.dia = 0;
+
             return bp;
         }
+        Pair lp = diameterOfBinaryTree_(root.left);
+        Pair rp = diameterOfBinaryTree_(root.right);
 
-        DiaPair lp = diameterOfBinaryTree_(root.left);
-        DiaPair rp = diameterOfBinaryTree_(root.right);
-
-        DiaPair mp = new DiaPair();
+        Pair mp = new Pair();
         mp.ht = Math.max(lp.ht , rp.ht) + 1;
         int size = lp.ht + rp.ht + 2;
+        mp.dia =  Math.max(size , Math.max(lp.dia , rp.dia));
 
-        mp.dia = Math.max(size , Math.max(lp.dia , rp.dia));
         return mp;
-    } 
-    
+        
+    }
     public int diameterOfBinaryTree(TreeNode root) {
         return diameterOfBinaryTree_(root).dia;
     }
