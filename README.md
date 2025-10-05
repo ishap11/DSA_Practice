@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0037-sudoku-solver) |
 | [0042-trapping-rain-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0053-maximum-subarray) |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
 | [0371-sum-of-two-integers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0371-sum-of-two-integers) |
@@ -581,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
