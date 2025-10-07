@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0605-can-place-flowers) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
+| [0498-diagonal-traverse](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0735-asteroid-collision) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -595,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0498-diagonal-traverse](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0733-flood-fill) |
