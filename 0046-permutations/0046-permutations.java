@@ -1,33 +1,28 @@
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
         boolean[] used = new boolean[nums.length];
-        List<Integer> current = new ArrayList<>();
+        List<Integer> curr = new ArrayList<>();
 
-        return generatePermutations(nums, used, current, result, 0);
-
-        // Print all permutations
-        // for (List<Integer> perm : result) {
-        //     System.out.println(perm);
-        // }
+        return generatePer(nums , used , curr , ans , 0);
     }
 
-     public static List<List<Integer>> generatePermutations(int[] nums, boolean[] used, List<Integer> current,
-                                            List<List<Integer>> result, int level) {
-        if (level == nums.length) {
-            result.add(new ArrayList<>(current)); // Add a copy of the current list
-            return result;
+    public List<List<Integer>> generatePer(int[] nums , boolean[] used , List<Integer> curr , List<List<Integer>> ans , int level){
+        if(level == nums.length){
+            ans.add(new ArrayList<>(curr));
+            return ans;
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            if (!used[i]) {
-                used[i] = true;                     // choose option
-                current.add(nums[i]);                // add to current path
-                generatePermutations(nums, used, current, result, level + 1); // next level
-                current.remove(current.size() - 1); // backtrack
-                used[i] = false;                    // un-choose
+        for(int i = 0 ; i< nums.length ; i++){
+            if(!used[i]){
+                used[i] = true;
+                curr.add(nums[i]);
+                generatePer(nums , used , curr , ans , level + 1);
+                curr.remove(curr.size() - 1);
+                used[i] = false;
             }
         }
-        return result;
+
+        return ans;
     }
 }
