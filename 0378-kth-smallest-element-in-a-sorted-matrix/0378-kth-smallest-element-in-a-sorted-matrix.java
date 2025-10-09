@@ -1,18 +1,16 @@
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
         int n = matrix.length;
-        // Step 1: Flatten the matrix into a 1D array
-        List<Integer> flattened = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                flattened.add(matrix[i][j]);
+
+        int[] arr = new int[n*n];
+        int index = 0;
+        for(int i=0; i<n ; i++){
+            for(int j= 0; j< n ; j++){
+                arr[index++] = matrix[i][j];
             }
         }
-
-        // Step 2: Sort the flattened array
-        Collections.sort(flattened);
+        Arrays.sort(arr);
         
-        // Step 3: Return the k-th smallest element
-        return flattened.get(k - 1);
+        return arr[k - 1];
     }
 }
