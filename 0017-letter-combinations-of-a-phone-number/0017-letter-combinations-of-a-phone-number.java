@@ -1,35 +1,36 @@
 class Solution {
     public List<String> letterCombinations(String digits) {
-        if(digits.length() == 0){
+        if(digits == null || digits.length() == 0){
             return new ArrayList<>();
         }
-        return getLetterCombinations(digits , 0);
-    } 
-    String[]codes = {"" ,"" , "abc" ,"def" , "ghi" , "jkl" ,"mno" , "pqrs" , "tuv" , "wxyz"};
 
-    // 234 => 27 results a[34] b[34] c[34]
-    // 34 => dg , dh, di , eg, eh , ei, fg, fh , fi
-    // 2=> abc
-    public List<String> getLetterCombinations(String digits , int idx){
-        if(idx == digits.length()){
-            List<String> baseResult = new ArrayList<>();
-            baseResult.add("");
-            return baseResult;
+        return getKpc(digits);
+    }
+
+    String[] codes = {"" , "" , "abc" , "def" , "ghi" , "jkl" , "mno" , "pqrs" , "tuv" , "wxyz"};
+
+    public List<String> getKpc(String str){
+        if(str.length() == 0){
+            List<String> bres = new ArrayList<>();
+            bres.add("");
+            return bres;
         }
 
-        List<String> myResult = new ArrayList<>();
+        char ch = str.charAt(0);
+        String res = str.substring(1);
 
-        
-        char ch = digits.charAt(idx); //2 != '2', 2 == '2' -'0'
-        List<String> recResult = getLetterCombinations(digits, idx+1);
-        String code = codes[ch - '0']; //abc
+        List<String> rres = getKpc(res);
+        List<String> mres = new ArrayList<>();
 
-        for(String recString : recResult){ //dg , dh, di , eg, eh , ei, fg, fh , fi 
-            for(int i=0 ; i< code.length() ; i++){ // a , b ,c
-                char chcode = code.charAt(i);
-                myResult.add(chcode + recString);
+        String chcode = codes[ch - '0'];
+        for(int i = 0 ; i< chcode.length() ;i++){
+            char code = chcode.charAt(i);
+
+            for(String s : rres){
+                mres.add(code + s);
             }
         }
-        return myResult;
+
+        return mres;
     }
 }
