@@ -16,20 +16,20 @@
 class Solution {
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         List<TreeNode> ans = new ArrayList<>();
-        HashMap<String ,  Integer> map = new HashMap<>();
+        HashMap<String, Integer> map = new HashMap<>();
 
         getSubTree(root , map , ans);
         return ans;
     }
 
-    private String getSubTree(TreeNode root , HashMap<String ,  Integer> map , List<TreeNode> ans){
+    public String getSubTree( TreeNode root ,HashMap<String, Integer> map, List<TreeNode> ans ){
         if(root == null) return "#";
 
-        String s = root.val + "," + getSubTree(root.left , map , ans) + "," +  getSubTree(root.right , map , ans);
+        String s = root.val + "," + getSubTree(root.left , map , ans) + "," + getSubTree(root.right , map , ans);
 
         map.put(s , map.getOrDefault(s , 0) + 1);
 
-        if(map.get(s) == 2) {
+        if(map.get(s) == 2){
             ans.add(root);
         }
 
