@@ -4,7 +4,7 @@ class Solution {
         int k =0;
 
         for(int i = 1 ; i< intervals.length;  i++){
-            if(intervals[k][1] > intervals[i][0] ){
+            if(intervals[k][1] >= intervals[i][0] ){
                 intervals[k][1] = Math.max(intervals[k][1] , intervals[i][1]);
             }else{
                 k++;
