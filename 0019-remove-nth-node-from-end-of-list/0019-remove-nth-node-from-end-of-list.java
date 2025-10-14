@@ -31,5 +31,37 @@ class Solution {
         slow.next = slow.next.next;
 
         return dummy.next;
+
+
+        // ListNode reverseList = reverse(head);
+
+        // ListNode dummy = new ListNode(-1);
+        // dummy.next = reverseList;
+
+        // ListNode curr = dummy;
+
+        // for(int i = 1 ; i< n ; i++){
+        //     curr = curr.next;
+        // }
+        // curr.next = curr.next != null ? curr.next.next : null;
+
+        // return reverse(dummy.next);
     }
+
+    // public ListNode reverse(ListNode head){
+    //     if(head == null || head.next == null){
+    //         return head;
+    //     }
+
+    //     ListNode curr = head;
+    //     ListNode prev = null;
+
+    //     while(curr != null){
+    //         ListNode next = curr.next;
+    //         curr.next = prev;
+    //         prev = curr;
+    //         curr = next;
+    //     }
+    //     return prev;
+    // }
 }
