@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0217-contains-duplicate) |
+| [0221-maximal-square](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0283-move-zeroes) |
@@ -597,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
+| [0221-maximal-square](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0498-diagonal-traverse](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
@@ -677,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0221-maximal-square) |
 | [0322-coin-change](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0392-is-subsequence) |
