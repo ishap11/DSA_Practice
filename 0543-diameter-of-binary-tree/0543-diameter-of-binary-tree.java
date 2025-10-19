@@ -15,11 +15,10 @@
  */
 class Solution {
     public class Pair{
-        int ht ; 
+        int ht;
         int dia;
     }
-
-    public Pair diameterOfBinaryTree_(TreeNode root){
+    public Pair diameter_(TreeNode root){
         if(root == null){
             Pair bp = new Pair();
             bp.ht = -1;
@@ -27,18 +26,18 @@ class Solution {
 
             return bp;
         }
-        Pair lp = diameterOfBinaryTree_(root.left);
-        Pair rp = diameterOfBinaryTree_(root.right);
+        
+        Pair lp = diameter_(root.left);
+        Pair rp = diameter_(root.right);
 
         Pair mp = new Pair();
         mp.ht = Math.max(lp.ht , rp.ht) + 1;
-        int size = lp.ht + rp.ht + 2;
-        mp.dia =  Math.max(size , Math.max(lp.dia , rp.dia));
+        int size  = lp.ht + rp.ht + 2;
+        mp.dia = Math.max(size , Math.max(lp.dia , rp.dia));
 
         return mp;
-        
     }
     public int diameterOfBinaryTree(TreeNode root) {
-        return diameterOfBinaryTree_(root).dia;
+        return diameter_(root).dia;
     }
 }
