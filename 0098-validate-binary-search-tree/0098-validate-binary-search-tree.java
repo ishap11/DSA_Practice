@@ -15,16 +15,16 @@
  */
 class Solution {
     public class BSTPair{
-        int min;
-        int max;
+        long min;
+        long max;
         boolean isBST;
     }
     
     public BSTPair isValidBST_(TreeNode root){
         if(root == null){
             BSTPair bp = new BSTPair();
-            bp.min = Integer.MAX_VALUE;
-            bp.max = Integer.MIN_VALUE;
+            bp.min = Long.MAX_VALUE;
+            bp.max = Long.MIN_VALUE;
             bp.isBST = true;
 
             return bp;
