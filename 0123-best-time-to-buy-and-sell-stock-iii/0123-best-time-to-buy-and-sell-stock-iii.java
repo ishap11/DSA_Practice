@@ -28,7 +28,7 @@ class Solution {
 
             mpibt = maxsf - prices[i];
 
-            if(mpibt > dpl[i+1]){
+            if(mpibt > dpr[i+1]){
                 dpr[i] = mpibt;
             }else{
                 dpr[i] = dpr[i+1];
