@@ -3,38 +3,39 @@ class Solution {
         int m = mat.length;
         int n = mat[0].length;
 
-        int[] ans = new int[m * n];
+        int[] ans = new int[m*n];
+        int i =  0, j = 0 , k = 0;
 
-        int i = 0, j = 0, k = 0;
         boolean up = true;
 
-        while (k < m * n) {
+        while( k < m * n){
             ans[k++] = mat[i][j];
 
-            if (up) { // moving up-right
-                if (j == n - 1) {    // last column → move down
+            if(up){
+                if(j == n - 1){
                     i++;
                     up = false;
-                } else if (i == 0) { // first row → move right
+                }else if(i == 0){
                     j++;
                     up = false;
-                } else {
+                }else{
                     i--;
                     j++;
                 }
-            } else { // moving down-left
-                if (i == m - 1) {    // last row → move right
+            }else{
+                if(i == m - 1){
                     j++;
                     up = true;
-                } else if (j == 0) { // first column → move down
+                }else if(j == 0){
                     i++;
                     up = true;
-                } else {
+                }else{
                     i++;
                     j--;
                 }
             }
         }
+
         return ans;
     }
 }
