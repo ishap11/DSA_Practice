@@ -1,45 +1,44 @@
 class MyStack {
-    Queue<Integer> mq;
-    Queue<Integer> cq;
+    Queue<Integer> que1;
+    Queue<Integer> que2;
 
     public MyStack() {
-        mq = new ArrayDeque<>();
-        cq = new ArrayDeque<>();    
+        que1 = new ArrayDeque<>();
+        que2 = new ArrayDeque<>();
     }
     
     public void push(int x) {
-        mq.add(x);
+        que1.add(x);
     }
     
     public int pop() {
-        while(mq.size() > 1) {
-            cq.add(mq.remove());
+        while(que1.size() > 1){
+            que2.add(que1.remove());
         }
-        int rem = mq.remove();
-
-        while(cq.size() > 0) {
-            mq.add(cq.remove());
+        int popElem = que1.remove();
+        while(!que2.isEmpty()){
+            que1.add(que2.remove());
         }
 
-        return rem;
+        return popElem;
     }
     
     public int top() {
-        while(mq.size() > 1) {
-            cq.add(mq.remove());
+        while(que1.size() > 1){
+            que2.add(que1.remove());
         }
-        int rem = mq.remove();
-        cq.add(rem);
+        int topElem = que1.remove();
+        que2.add(topElem);
 
-        while(cq.size() > 0) {
-            mq.add(cq.remove());
+        while(!que2.isEmpty()){
+            que1.add(que2.remove());
         }
 
-        return rem;
+        return topElem;
     }
     
     public boolean empty() {
-        return mq.isEmpty();
+        return que1.isEmpty();
     }
 }
 
