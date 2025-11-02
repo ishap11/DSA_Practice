@@ -14,15 +14,14 @@
  * }
  */
 class Solution {
-    public class BSTPair{
+    public class Pair{
         long min;
         long max;
         boolean isBST;
     }
-    
-    public BSTPair isValidBST_(TreeNode root){
+    public Pair isValidBST_(TreeNode root) {
         if(root == null){
-            BSTPair bp = new BSTPair();
+            Pair bp = new Pair();
             bp.min = Long.MAX_VALUE;
             bp.max = Long.MIN_VALUE;
             bp.isBST = true;
@@ -30,11 +29,12 @@ class Solution {
             return bp;
         }
 
-        BSTPair lp = isValidBST_(root.left);
-        BSTPair rp = isValidBST_(root.right);
+        Pair lp = isValidBST_(root.left);
+        Pair rp = isValidBST_(root.right);
 
-        BSTPair mp = new BSTPair();
-        mp.isBST = lp.isBST && rp.isBST && (root.val > lp.max && root.val < rp.min);
+
+        Pair mp = new Pair();
+        mp.isBST = lp.isBST && rp.isBST && (lp.max < root.val && root.val < rp.min);
         mp.min = Math.min(root.val , Math.min(lp.min , rp.min));
         mp.max = Math.max(root.val , Math.max(lp.max , rp.max));
 
