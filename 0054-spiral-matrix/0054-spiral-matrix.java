@@ -1,21 +1,20 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> ans = new ArrayList<>();
-
         int m = matrix.length;
         int n = matrix[0].length;
 
-        int tne = m * n;
+        int tne = m*n;
         int count = 0;
 
         int minr = 0;
-        int maxr = matrix.length - 1;
+        int maxr = m - 1;
 
         int minc = 0;
-        int maxc = matrix[0].length - 1;
+        int maxc = n - 1;
 
         while(count < tne){
-            for(int i = minc ; i <= maxc && count < tne ; i++){
+            for(int i = minc ; i <= maxc  && count < tne; i++){
                 ans.add(matrix[minr][i]);
                 count++;
             }
@@ -33,12 +32,12 @@ class Solution {
             }
             maxr--;
 
-            for(int i = maxr ; i >= minr && count < tne ; i--){
+            for(int i = maxr ; i>=minr && count < tne ; i--){
                 ans.add(matrix[i][minc]);
                 count++;
             }
-            minc++;
 
+            minc++;
         }
         return ans;
     }
