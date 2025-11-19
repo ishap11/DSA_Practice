@@ -1,58 +1,53 @@
 class Solution {
     public List<List<String>> solveNQueens(int n) {
-        List<List<String>> ans = new ArrayList<>();
-        int[][] chess = new int[n][n];
+        boolean[] cols = new boolean[n];
+        boolean[] ndiag = new boolean[2*n - 1];
+        boolean[] rdiag = new boolean[2*n - 1];
 
-        nQueens(n , chess , ans , 0);
+        List<List<String>> ans = new ArrayList<>();
+        List<Integer> temp = new ArrayList<>();
+
+        solve(n, 0, cols, ndiag, rdiag, ans, temp);
         return ans;
     }
 
-    private void nQueens(int n , int[][] chess , List<List<String>> ans , int row){
-        List<String> res = new ArrayList<>();
+    public void solve(int n, int row, boolean[] cols, boolean[] ndiag, boolean[] rdiag,
+                      List<List<String>> ans, List<Integer> temp) {
 
-        if(row == n){
-            List<String> board = new ArrayList<>();
-            for(int i=0 ; i< n ;i++){
-                StringBuilder sb = new StringBuilder();
-                for(int j= 0;  j< n ; j++){
-                    if(chess[i][j] == 1){
-                        sb.append('Q');
-                    }else{
-                        sb.append('.');
-                    }
-                }
-                board.add(sb.toString());
-            }
-            ans.add(board);
+        if (row == n) {
+            ans.add(buildBoard(temp, n));   // convert col positions → strings
             return;
         }
 
+        for (int col = 0; col < n; col++) {
+            if (!cols[col] && !ndiag[row + col] && !rdiag[row - col + n - 1]) {
 
-        for(int col = 0 ; col < n; col++){
-            if(isSafePlace(chess , row, col)) {
-                chess[row][col] = 1;
-                nQueens(n , chess , ans , row + 1);
-                chess[row][col] = 0;
+                temp.add(col);  // store column index (0-based)
+                cols[col] = true;
+                ndiag[row + col] = true;
+                rdiag[row - col + n - 1] = true;
+
+                solve(n, row + 1, cols, ndiag, rdiag, ans, temp);
+
+                temp.remove(temp.size() - 1);
+                cols[col] = false;
+                ndiag[row + col] = false;
+                rdiag[row - col + n - 1] = false;
             }
         }
     }
 
-    private boolean isSafePlace(int[][] chess , int row , int col){
-        for(int i=0 ; i< row ; i++){
-            if(chess[i][col] == 1) return false;
-        }
-
-        for(int i = row - 1 , j = col - 1 ; i >= 0 && j >= 0 ; i-- , j--) {
-            if(chess[i][j] == 1){
-                return false;
+    // Convert list of queen positions into board representation
+    private List<String> buildBoard(List<Integer> temp, int n) {
+        List<String> board = new ArrayList<>();
+        for (int col : temp) {
+            StringBuilder row = new StringBuilder();
+            for (int j = 0; j < n; j++) {
+                if (j == col) row.append('Q');
+                else row.append('.');
             }
+            board.add(row.toString());
         }
-
-        for(int i = row - 1 , j = col + 1 ; i >= 0 && j < chess.length ; i-- , j++){
-            if(chess[i][j] == 1){
-                return false;
-            }
-        }
-        return true;
+        return board;
     }
 }
