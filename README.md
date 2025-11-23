@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
+| [0575-distribute-candies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0575-distribute-candies) |
 | [0605-can-place-flowers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0658-find-k-closest-elements) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
+| [0575-distribute-candies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0575-distribute-candies) |
 | [0652-find-duplicate-subtrees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0652-find-duplicate-subtrees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0966-binary-subarrays-with-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0966-binary-subarrays-with-sum) |
