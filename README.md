@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0085-maximal-rectangle) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -537,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0143-reorder-list) |
@@ -577,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0780-max-chunks-to-make-sorted) |
@@ -618,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
+| [0085-maximal-rectangle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
@@ -697,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0053-maximum-subarray) |
+| [0085-maximal-rectangle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0124-binary-tree-maximum-path-sum) |
