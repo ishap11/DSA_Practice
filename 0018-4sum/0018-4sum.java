@@ -1,43 +1,37 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
-        List<List<Integer>> res = new ArrayList<>();
+        int n = nums.length;
+        List<List<Integer>> ans = new ArrayList<>();
         Arrays.sort(nums);
+        
+        for(int i = 0 ; i < n - 3 ; i++){
+            if(i>0 && nums[i] == nums[i-1]) continue;
 
-        HashSet<String> unique = new HashSet<>();
-        for(int i=0; i< nums.length -3; i++){ // -3 cuz last ke 3 no. ke liye jgh chdni h 
-            for(int j= i+1; j< nums.length-2 ; j++){
-                int li = j+1;
-                int ri = nums.length-1;
+            for(int j = i + 1 ; j < n - 2 ; j++){
+                if(j > i + 1 && nums[j] == nums[j-1]) continue;
 
-                while(li <ri){
-                    long sum = nums[i];
-                    sum += nums[j];
-                    sum += nums[li];
-                    sum += nums[ri];
-                    if(sum < target){
-                        li++;
-                    }else if(sum > target){
-                        ri--;
+                int left = j + 1;
+                int right = n - 1;
+
+                while(left < right){
+                    long sum = (long) nums[i] + nums[j] + nums[left] + nums[right];
+
+                    if(sum == target){
+                        ans.add(new ArrayList<>(Arrays.asList(nums[i] , nums[j] , nums[left] , nums[right])));
+                        left++;
+                        right--;
+
+                        while(left < right && nums[left] == nums[left - 1]) left++;
+                        while(left < right && nums[right] == nums[right + 1]) right--;
+                    }
+                    else if(sum < target){
+                        left++;
                     }else{
-                        StringBuilder sb = new StringBuilder() ;
-                        sb.append(nums[i]);
-                        sb.append(nums[j]);
-                        sb.append(nums[li]);
-                        sb.append(nums[ri]); 
-
-                        String code =  sb.toString() ;                   
-                        if(unique.contains(code) == false){
-                            unique.add(code);
-                            res.add(Arrays.asList(nums[i] , nums[j] ,nums[li] , nums[ri]));
-                        }
-                        
-                        li++;
-                        ri--;
+                        right--;
                     }
                 }
-
             }
         }
-        return res;
+        return ans;
     }
 }
