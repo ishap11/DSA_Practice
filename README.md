@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0498-diagonal-traverse) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0542-01-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
 | [0575-distribute-candies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0575-distribute-candies) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0443-string-compression) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0647-palindromic-substrings](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0658-find-k-closest-elements) |
@@ -392,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0387-first-unique-character-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0496-next-greater-element-i) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
 | [0575-distribute-candies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0575-distribute-candies) |
 | [0652-find-duplicate-subtrees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0652-find-duplicate-subtrees) |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0658-find-k-closest-elements) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0780-max-chunks-to-make-sorted) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
@@ -740,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0493-reverse-pairs) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0658-find-k-closest-elements) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0783-search-in-a-binary-search-tree) |
