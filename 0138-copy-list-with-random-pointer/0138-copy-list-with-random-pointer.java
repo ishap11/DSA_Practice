@@ -21,12 +21,12 @@ class Solution {
         Node nHead = new Node(-1);
         Node prev = nHead;
 
-        while(curr != null) {
+        while(curr != null){
             prev.next = new Node(curr.val);
             map.put(curr , prev.next);
 
-            prev = prev.next;
             curr = curr.next;
+            prev = prev.next;
         }
         nHead = nHead.next;
 
@@ -35,10 +35,10 @@ class Solution {
 
         while(c1 != null){
             c2.random = (c1.random != null ? map.get(c1.random) : null);
-
             c1 = c1.next;
             c2 = c2.next;
         }
+
         return nHead;
     }
 }
