@@ -441,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0658-find-k-closest-elements) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0780-max-chunks-to-make-sorted) |
