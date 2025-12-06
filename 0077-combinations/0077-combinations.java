@@ -1,8 +1,8 @@
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> ans = new ArrayList<>();
-        
-        generateCombinations(1 , n  , k , new ArrayList<>() , ans);
+
+        generateCombinations(1 , n , k , new ArrayList<>()  , ans);
         return ans;
     }
 
@@ -12,7 +12,7 @@ class Solution {
             return;
         }
 
-        for(int i = st ; i <= n ;i++){
+        for(int i = st ; i <= n ; i++){
             res.add(i);
             generateCombinations(i+1 , n , k , res , ans);
             res.remove(res.size() - 1);
