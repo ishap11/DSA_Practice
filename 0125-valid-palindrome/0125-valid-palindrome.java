@@ -19,12 +19,10 @@ class Solution {
             if(str.charAt(i) == str.charAt(j)){
                 i++;
                 j--;
-            }
-            else{
+            }else{
                 return false;
             }
         }
         return true;
-        
     }
 }
