@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0162-find-peak-element) |
+| [0179-largest-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0011-container-with-most-water) |
 | [0134-gas-station](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0134-gas-station) |
+| [0179-largest-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0179-largest-number) |
 | [0605-can-place-flowers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0605-can-place-flowers) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0780-max-chunks-to-make-sorted) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -439,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0148-sort-list) |
+| [0179-largest-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0229-majority-element-ii) |
@@ -519,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0125-valid-palindrome) |
+| [0179-largest-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0212-word-search-ii) |
