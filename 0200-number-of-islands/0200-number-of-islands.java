@@ -1,16 +1,15 @@
 class Solution {
     public int numIslands(char[][] grid) {
-        int count =  0;
+        int count = 0;
 
-        int n = grid.length ;
-        int m = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
+        int[][] vis = new int[m][n];
 
-        int[][] visited = new int[n][m];
-
-        for(int i = 0; i< n ; i++){
-            for(int j = 0 ; j< m ; j++){
-                if(grid[i][j] == '1' && visited[i][j] == 0){
-                    findIsland(grid , i , j , visited);
+        for(int i = 0 ; i < m ; i++){
+            for(int j = 0 ; j < n ; j++){
+                if(grid[i][j] == '1' && vis[i][j] == 0){
+                    numOfIsland(grid , i , j , vis);
                     count++;
                 }
             }
@@ -18,17 +17,15 @@ class Solution {
         return count;
     }
 
-    private void findIsland(char[][] grid , int i , int j , int[][] visited){
-        if(i<0 || j<0|| i>= grid.length || j>= grid[0].length || grid[i][j] == '0' || visited[i][j] == 1){
+    public void numOfIsland(char[][] grid , int i , int j , int[][] vis){
+        if(i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] == '0' || vis[i][j] == 1){
             return;
         }
 
-        visited[i][j] = 1;
-
-        findIsland(grid , i-1 , j , visited);
-        findIsland(grid , i+1 , j , visited);
-        findIsland(grid , i , j-1 , visited);
-        findIsland(grid , i , j+1 , visited);
-
+        vis[i][j] = 1;
+        numOfIsland(grid , i - 1 , j , vis);
+        numOfIsland(grid , i + 1 , j , vis);
+        numOfIsland(grid , i , j - 1 , vis);
+        numOfIsland(grid , i , j + 1 , vis);
     }
 }
