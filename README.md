@@ -394,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0160-intersection-of-two-linked-lists) |
+| [0166-fraction-to-recurring-decimal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0229-majority-element-ii) |
@@ -495,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
+| [0166-fraction-to-recurring-decimal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0166-fraction-to-recurring-decimal) |
 | [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
 | [0371-sum-of-two-integers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0371-sum-of-two-integers) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0125-valid-palindrome) |
+| [0166-fraction-to-recurring-decimal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0166-fraction-to-recurring-decimal) |
 | [0179-largest-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0211-design-add-and-search-words-data-structure) |
