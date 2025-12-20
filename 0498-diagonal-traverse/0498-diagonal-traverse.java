@@ -4,32 +4,36 @@ class Solution {
         int n = mat[0].length;
 
         int[] ans = new int[m*n];
-        int i =  0, j = 0 , k = 0;
-
         boolean up = true;
+        int i = 0 , j = 0 , k =0;
 
-        while( k < m * n){
-            ans[k++] = mat[i][j];
+        while(k < m *n){
+            ans[k++]= mat[i][j];
 
             if(up){
                 if(j == n - 1){
                     i++;
                     up = false;
-                }else if(i == 0){
+                }
+                else if(i == 0){
                     j++;
                     up = false;
-                }else{
+                }
+                else{
                     i--;
                     j++;
                 }
-            }else{
+            }
+            else{
                 if(i == m - 1){
                     j++;
                     up = true;
-                }else if(j == 0){
+                }
+                else if( j == 0){
                     i++;
                     up = true;
-                }else{
+                }
+                else{
                     i++;
                     j--;
                 }
