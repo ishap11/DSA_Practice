@@ -7,7 +7,6 @@ class Trie {
             childs = new Node[26];
         }
     }
-
     private static Node root;
 
     public Trie() {
@@ -17,7 +16,7 @@ class Trie {
     public void insert(String word) {
         Node curr = root;
 
-        for(int i = 0 ; i< word.length() ; i++){
+        for(int i = 0 ; i < word.length() ; i++){
             char ch = word.charAt(i);
 
             if(curr.childs[ch - 'a'] == null){
@@ -31,7 +30,7 @@ class Trie {
     public boolean search(String word) {
         Node curr = root;
 
-        for(int i = 0 ; i< word.length() ; i++){
+        for(int i = 0 ; i < word.length() ; i++){
             char ch = word.charAt(i);
 
             if(curr.childs[ch - 'a'] == null){
@@ -45,7 +44,7 @@ class Trie {
     public boolean startsWith(String prefix) {
         Node curr = root;
 
-        for(int i = 0 ; i< prefix.length() ; i++){
+        for(int i = 0 ; i < prefix.length() ; i++){
             char ch = prefix.charAt(i);
 
             if(curr.childs[ch - 'a'] == null){
