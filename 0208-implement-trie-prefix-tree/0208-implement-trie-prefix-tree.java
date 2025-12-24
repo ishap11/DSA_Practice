@@ -1,16 +1,14 @@
 class Trie {
-
     class Node{
         Node[] childs;
         boolean isEnd;
 
-         Node() {
+        Node(){
             childs = new Node[26];
-         }
+        }
     }
 
     private static Node root;
-
 
     public Trie() {
         root = new Node();
@@ -25,20 +23,18 @@ class Trie {
             if(curr.childs[ch - 'a'] == null){
                 curr.childs[ch - 'a'] = new Node();
             }
-
-            
             curr = curr.childs[ch - 'a'];
         }
-         curr.isEnd = true;
+        curr.isEnd = true;
     }
     
     public boolean search(String word) {
-         Node curr = root;
+        Node curr = root;
 
-        for(int i=0 ; i< word.length() ; i++) {
+        for(int i = 0 ; i< word.length() ; i++){
             char ch = word.charAt(i);
 
-            if(curr.childs[ch - 'a'] == null) {
+            if(curr.childs[ch - 'a'] == null){
                 return false;
             }
             curr = curr.childs[ch - 'a'];
@@ -47,12 +43,12 @@ class Trie {
     }
     
     public boolean startsWith(String prefix) {
-         Node curr = root;
+        Node curr = root;
 
-        for(int i=0 ; i< prefix.length() ; i++) {
+        for(int i = 0 ; i< prefix.length() ; i++){
             char ch = prefix.charAt(i);
 
-            if(curr.childs[ch - 'a'] == null) {
+            if(curr.childs[ch - 'a'] == null){
                 return false;
             }
             curr = curr.childs[ch - 'a'];
