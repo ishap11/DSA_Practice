@@ -29,22 +29,23 @@ public class Solution {
         tempA = headA;
         tempB = headB;
 
-        if(lenA > lenB) {
-            for(int i=0 ; i< delta ; i++) {
+        if(lenA > lenB){
+            for(int i = 0 ; i < delta ; i++){
                 tempA = tempA.next;
             }
         }
 
-        if(lenB > lenA) {
-            for(int i=0 ; i< delta ; i++) {
+        if(lenB > lenA){
+            for(int i = 0 ; i < delta ; i++){
                 tempB = tempB.next;
             }
         }
 
-        while(tempA != tempB) {
+        while(tempA != tempB){
             tempA = tempA.next;
             tempB = tempB.next;
         }
+
         return tempA;
     }
 }
