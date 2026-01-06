@@ -21,6 +21,7 @@ class Solution {
             }
         }
 
+
         for(int ax = 0 ; ax < s.length() - 1 ; ax++){
             int orb = 1;
             int len = 0;
@@ -36,7 +37,7 @@ class Solution {
 
             if(len > ans.length()){
                 int si = ax - len/2 + 1;
-                ans = s.substring(si ,si + len);
+                ans = s.substring(si , si + len);
             }
         }
         return ans;
