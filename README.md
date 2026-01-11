@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1390-average-selling-price](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1415-students-and-examinations) |
 | [1517-find-users-with-valid-e-mails](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1517-find-users-with-valid-e-mails) |
+| [1661-average-time-of-process-per-machine](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1661-average-time-of-process-per-machine) |
 | [1670-patients-with-a-condition](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1670-patients-with-a-condition) |
 | [1683-invalid-tweets](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1683-invalid-tweets) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
