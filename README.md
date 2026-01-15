@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1155-product-sales-analysis-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1155-product-sales-analysis-iii) |
 | [1161-project-employees-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1161-project-employees-i) |
 | [1182-game-play-analysis-iv](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1182-game-play-analysis-iv) |
+| [1211-queries-quality-and-percentage](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1211-queries-quality-and-percentage) |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1258-article-views-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1258-article-views-i) |
 | [1292-immediate-food-delivery-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1292-immediate-food-delivery-ii) |
