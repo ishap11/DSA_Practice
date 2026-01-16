@@ -565,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1146-greatest-common-divisor-of-strings](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1197-parsing-a-boolean-expression](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1197-parsing-a-boolean-expression) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
+| [1392-longest-happy-prefix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-longest-happy-prefix) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -869,13 +870,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0572-subtree-of-another-tree) |
+| [1392-longest-happy-prefix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0572-subtree-of-another-tree) |
+| [1392-longest-happy-prefix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-longest-happy-prefix) |
 ## Data Stream
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
+## Rolling Hash
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-longest-happy-prefix) |
 <!---LeetCode Topics End-->
