@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2956-find-common-elements-between-two-arrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2956-find-common-elements-between-two-arrays) |
 | [3194-find-words-containing-character](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3194-find-words-containing-character) |
 | [3206-find-common-elements-between-two-arrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3206-find-common-elements-between-two-arrays) |
+| [3423-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3423-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Queue
