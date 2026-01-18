@@ -318,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0872-leaf-similar-trees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0872-leaf-similar-trees) |
 | [0904-leaf-similar-trees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0904-leaf-similar-trees) |
+| [0938-range-sum-of-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0938-range-sum-of-bst) |
 | [0975-range-sum-of-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0975-range-sum-of-bst) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -394,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0872-leaf-similar-trees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0872-leaf-similar-trees) |
 | [0904-leaf-similar-trees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0904-leaf-similar-trees) |
+| [0938-range-sum-of-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0938-range-sum-of-bst) |
 | [0975-range-sum-of-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0975-range-sum-of-bst) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -728,6 +730,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0801-is-graph-bipartite) |
 | [0872-leaf-similar-trees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0872-leaf-similar-trees) |
 | [0904-leaf-similar-trees](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0904-leaf-similar-trees) |
+| [0938-range-sum-of-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0938-range-sum-of-bst) |
 | [0975-range-sum-of-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1073-number-of-enclaves) |
@@ -803,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [0938-range-sum-of-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0938-range-sum-of-bst) |
 | [0975-range-sum-of-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0975-range-sum-of-bst) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
