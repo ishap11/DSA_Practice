@@ -10,11 +10,16 @@ class Solution {
             } 
 
             else{
-                if((st.peek() == '(' && ch == ')') || (st.peek() == '{' && ch == '}') || (st.peek() == '[' && ch == ']')){
-                    st.pop();
-                }
+                if(st.isEmpty()) return false;
                 else{
-                    return false;
+                    if((st.peek() == '(' && ch == ')') || 
+                        (st.peek() == '{' && ch == '}') || 
+                        (st.peek() == '[' && ch == ']')){
+                        st.pop();
+                    }
+                    else{
+                        return false;
+                    }
                 }
             }
         }
