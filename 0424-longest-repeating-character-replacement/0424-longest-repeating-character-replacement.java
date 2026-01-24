@@ -8,10 +8,9 @@ class Solution {
 
         while(j < s.length()){
             char ch = s.charAt(j);
-            map.put(ch , map.getOrDefault(ch , 0) + 1);
+            map.put(ch , map.getOrDefault(ch, 0 ) + 1);
 
             maxFreq = Math.max(maxFreq , map.get(ch));
-
             int winsize = j - i + 1;
 
             while(winsize - maxFreq > k){
