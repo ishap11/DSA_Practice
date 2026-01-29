@@ -17,19 +17,19 @@ public class Codec {
         return sb.toString();
     }
 
-    public void serialize_(TreeNode root , StringBuilder sb) {
+    public void serialize_(TreeNode root , StringBuilder sb ) {
         if(root == null){
             sb.append("null,");
             return;
         }
-        sb.append(root.val).append(",");
-        serialize_(root.left, sb);
-        serialize_(root.right , sb);
 
+        sb.append(root.val).append(",");
+        serialize_(root.left , sb);
+        serialize_(root.right , sb);
     }
 
-    static int idx  = 0;
     // Decodes your encoded data to tree.
+    static int idx = 0;
     public TreeNode deserialize(String data) {
         if(data == null || data.isEmpty()){
             return null;
@@ -46,14 +46,13 @@ public class Codec {
             return null;
         }
 
+
         TreeNode node = new TreeNode(Integer.parseInt(arr[idx++]));
         node.left = deserialize_(arr);
         node.right = deserialize_(arr);
 
-
         return node;
     }
-
 }
 
 // Your Codec object will be instantiated and called as such:
