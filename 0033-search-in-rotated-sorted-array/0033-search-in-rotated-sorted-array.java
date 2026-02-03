@@ -3,7 +3,7 @@ class Solution {
         int lo = 0;
         int hi = nums.length - 1;
 
-        while( lo <= hi ){
+        while(lo <= hi){
             int mid = (lo + hi) / 2;
 
             if(nums[mid] == target){
@@ -13,7 +13,7 @@ class Solution {
                 if(nums[lo] <= target && target <= nums[mid]){
                     hi = mid - 1;
                 }
-                else {
+                else{
                     lo = mid + 1;
                 }
             }
@@ -21,12 +21,11 @@ class Solution {
                 if(nums[mid] <= target && target <= nums[hi]){
                     lo = mid + 1;
                 }
-                else {
+                else{
                     hi = mid - 1;
                 }
             }
         }
-
         return -1;
     }
 }
