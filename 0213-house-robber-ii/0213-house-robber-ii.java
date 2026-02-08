@@ -1,21 +1,29 @@
 class Solution {
     public int rob(int[] nums) {
-        int n = nums.length;
+         int n = nums.length;
         
-        if (n == 1) {
-            return nums[0]; // Only one house to rob
-        }
+        // Edge cases
+        if (n == 1) return nums[0];
+        if (n == 2) return Math.max(nums[0], nums[1]);
         
-        return Math.max(robb(nums, 0, n - 2), robb(nums, 1, n - 1));
+        // Case 1: rob houses from 0 to n-2 [In case 1, first house allowed, last forbidden]
+        int case1 = robLinear(nums, 0, n - 2);
+        
+        // Case 2: rob houses from 1 to n-1 [In case 2, last house allowed, first forbidden]
+        int case2 = robLinear(nums, 1, n - 1);
+        
+        return Math.max(case1, case2);
     }
-
-    public int robb(int[] nums, int st, int end) {
-        int r1 = 0, r2 = 0;
-        for (int i = st; i <= end; i++) {
-            int temp = Math.max(r1 + nums[i], r2);
-            r1 = r2;
-            r2 = temp;
+    
+    private int robLinear(int[] nums, int start, int end) {
+        int rob1 = 0, rob2 = 0;
+        
+        for (int i = start; i <= end; i++) {
+            int temp = Math.max(rob1 + nums[i], rob2);
+            rob1 = rob2;
+            rob2 = temp;
         }
-        return r2;
+        
+        return rob2;
     }
 }
