@@ -539,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0062-unique-paths) |
 | [0166-fraction-to-recurring-decimal](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0166-fraction-to-recurring-decimal) |
 | [0231-power-of-two](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0231-power-of-two) |
 | [0371-sum-of-two-integers](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0371-sum-of-two-integers) |
@@ -782,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0062-unique-paths) |
 | [0085-maximal-rectangle](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -917,4 +919,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1392-longest-happy-prefix](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-longest-happy-prefix) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
