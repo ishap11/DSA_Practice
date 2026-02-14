@@ -11,13 +11,14 @@ class Solution {
             else{
                 if(st.isEmpty()) return false;
                 else{
-                    if((ch == ')' && st.peek() == '(') ||
-                       (ch == '}' && st.peek() == '{') ||
-                       (ch == ']' && st.peek() == '[')){
-                        st.pop();
-                    }else{
-                        return false;
-                    }
+                    if((st.peek() == '(' && ch == ')') ||
+                        (st.peek() == '{' && ch == '}') ||
+                        (st.peek() == '[' && ch ==']')){
+                            st.pop();
+                        }
+                        else{
+                            return false;
+                        }
                 }
             }
         }
