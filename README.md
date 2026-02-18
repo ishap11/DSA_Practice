@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-path-with-maximum-gold](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1331-path-with-maximum-gold) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1424-diagonal-traverse-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1424-diagonal-traverse-ii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0767-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
+| [1424-diagonal-traverse-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1424-diagonal-traverse-ii) |
 | [2413-smallest-number-in-infinite-set](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2413-smallest-number-in-infinite-set) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1424-diagonal-traverse-ii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1424-diagonal-traverse-ii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1798-max-number-of-k-sum-pairs) |
