@@ -932,4 +932,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0062-unique-paths) |
+## Union-Find
+|  |
+| ------- |
+| [0130-surrounded-regions](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0130-surrounded-regions) |
 <!---LeetCode Topics End-->
