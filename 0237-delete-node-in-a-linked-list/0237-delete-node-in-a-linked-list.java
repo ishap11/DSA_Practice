@@ -8,9 +8,9 @@
  */
 class Solution {
     public void deleteNode(ListNode node) {
-        // trick : hm copy krdenge node ne next ki value ko node ki place pr or node ke next ki jo value h usko link nii krenge
-        ListNode curr = node.next;
-        node.val = curr.val ; 
+        if(node == null || node.next == null) return;
+
+        node.val = node.next.val;
         node.next = node.next.next;
     }
 }
