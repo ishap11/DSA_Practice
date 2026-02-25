@@ -3,12 +3,15 @@ class Solution {
         int m = mat.length;
         int n = mat[0].length;
 
+        
+        int i = 0;
+        int j = 0;
+        int k = 0;
         int[] ans = new int[m*n];
         boolean up = true;
-        int i = 0 , j = 0 , k =0;
 
-        while(k < m *n){
-            ans[k++]= mat[i][j];
+        while( k < m * n){
+            ans[k++] = mat[i][j];
 
             if(up){
                 if(j == n - 1){
@@ -23,13 +26,12 @@ class Solution {
                     i--;
                     j++;
                 }
-            }
-            else{
+            }else{
                 if(i == m - 1){
                     j++;
                     up = true;
                 }
-                else if( j == 0){
+                else if(j == 0){
                     i++;
                     up = true;
                 }
@@ -39,7 +41,6 @@ class Solution {
                 }
             }
         }
-
         return ans;
     }
 }
