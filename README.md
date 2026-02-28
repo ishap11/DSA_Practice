@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0946-validate-stack-sequences](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0946-validate-stack-sequences) |
 | [0948-sort-an-array](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0966-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0983-validate-stack-sequences](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0983-validate-stack-sequences) |
 | [0994-rotting-oranges](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0994-rotting-oranges) |
 | [1002-maximum-width-ramp](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1002-maximum-width-ramp) |
@@ -456,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0767-reorganize-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0767-reorganize-string) |
 | [0966-binary-subarrays-with-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0966-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -860,6 +862,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0966-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1046-max-consecutive-ones-iii) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ishap11/Striver_DSA_Sheet/tree/master/1537-maximum-score-after-splitting-a-string) |
