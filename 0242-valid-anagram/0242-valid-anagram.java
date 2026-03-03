@@ -4,7 +4,7 @@ class Solution {
 
         int[] cnt = new int[26];
 
-        for(int i = 0 ;  i< s.length() ; i++){
+        for(int i = 0 ; i < s.length() ; i++){
             cnt[s.charAt(i) - 'a']++;
             cnt[t.charAt(i) - 'a']--;
         }
@@ -14,6 +14,7 @@ class Solution {
                 return false;
             }
         }
+
         return true;
     }
 }
