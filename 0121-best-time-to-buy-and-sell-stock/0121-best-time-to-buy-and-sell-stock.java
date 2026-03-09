@@ -4,8 +4,8 @@ class Solution {
         int profit = 0;
         int maxProfit = 0;
 
-        for(int i = 1 ; i < prices.length ;i++){
-            if(prices[i] < buy){
+        for(int i = 1 ; i < prices.length ; i++){
+            if(buy > prices[i]){
                 buy = prices[i];
             }
 
