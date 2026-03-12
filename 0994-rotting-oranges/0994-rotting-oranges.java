@@ -1,30 +1,28 @@
 class Solution {
     public class Pair{
-        int i;
+        int i ;
         int j;
         int time;
 
         Pair(int i , int j , int time){
-            this.i = i;
+            this.i= i;
             this.j = j;
             this.time = time;
         }
     }
-
     public int orangesRotting(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
 
+        int ans = 0;
         Queue<Pair> que = new LinkedList<>();
         boolean[][] vis = new boolean[m][n];
 
-        int ans = 0;
-
         for(int i = 0 ; i < m ; i++){
-            for(int j = 0 ; j < n ; j++){
+            for(int j = 0 ; j < n ;j++){
                 if(grid[i][j] == 2){
-                    que.add(new Pair(i , j , 0));
-                    vis[i][j] = true; 
+                    que.add(new Pair(i ,j , 0));
+                    vis[i][j] = true;
                 }
             }
         }
@@ -59,7 +57,7 @@ class Solution {
         }
 
         for(int i = 0 ; i < m ; i++){
-            for(int j = 0;  j < n ; j++){
+            for(int j = 0 ; j < n ; j++){
                 if(grid[i][j] == 1 && !vis[i][j]){
                     return -1;
                 }
